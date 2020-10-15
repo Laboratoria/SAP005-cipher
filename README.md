@@ -219,7 +219,7 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 ### Primeiros passos
 
 1. Antes de mais nada, se assegure de ter um bom :pencil: editor de texto, algo
-   como [Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
+   como o [Visual Studio Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/).
 2. Para executar os comandos você precisará de um :shell: UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
    deve ter o git instalado. Se você usa um sistema operacional "UNIX-like",
@@ -245,6 +245,8 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    para iniciar o servidor web e entre na url `http://localhost:5000` no seu
    navegador.
 8. Let's Code! :rocket:
+
+Este [video](https://drive.google.com/file/d/1CM6ZfpGfJMF6A8IcXoK5cFBBq-CY8oBR/view?usp=sharing) da Paloma também pode te ajudar nos seus primeiros passos ;)
 
 ### Recursos extras
 
