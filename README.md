@@ -65,39 +65,48 @@ Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que ir
 interagir com o usuário final através do navegador utilizando HTML, CSS e
 JavaScript como ferramentas.
 
-Em outras palavras, você aprenderá:
+### HTML e CSS
 
-* Organizar o seu tempo e priorizar as tarefas em um ambiente com **alta
-  incerteza**.
-* Entender as **necessidade do usuário** e propor uma solução.
-* Entender a importância do processo de prototipação durante a criação de um
-  produto digital.
-* Conhecer os princípios básicos de desenho visual.
-* Utilizar _tags_ semânticas de HTML e elementos de formulário.
-* Mostrar elementos de formulário na tela usando **HTML** e **CSS**.
-* Utilizar diversos tipos de seletores no CSS: elementos, classe e id.
-* Utilizar o modelo de caixas do CSS (border, margin, padding).
-* Definir regras de estilo do CSS.
-* Permitir ao usuário interagir com elementos do DOM e fazer que a aplicação
-  responda (cifrar/decifrar) quando os **evento de DOM** ocorrerem.
-* Manipular _**strings**_ (cadeias de texto).
-* Usar **controle de fluxo** (loops, condicionais, ...).
-* Atualizar a tela com os resultados (**manipular o DOM**) através de
-  **innerHTML** ou **textContent**.
-* **Implementar uma função** dada a descrição do seu comportamento.
-* Verificar que as suas funções façam o esperado (**usando provas unitárias
-  (_unit test_) com Jest**).
-* Configurar a sua conta de git.
-* Fazer o _fork_ e _clone_ do repositório do projeto.
-* Manter o seu repositório remoto sempre atualizado (commit, pull, push).
-* Subir o seu projeto para o Github Pages.
+* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
+* [ ] Uso de seletores de CSS.
+* [ ] Construir uma aplicação respeitando o desenho realizado (protótipo).
+
+### DOM
+
+* [ ] Uso de seletores do DOM.
+* [ ] Manipular eventos do DOM.
+* [ ] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+
+### JavaScript
+
+* [ ] Manipulação de strings.
+* [ ] Uso de condicionais (if-else | switch | operador ternário)
+* [ ] Uso de laços _(loops)_ (for | for..in | for..of | while)
+* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
+* [ ] Declaração correta de variáveis (const & let)
+
+### Testing
+
+* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
+
+### Estrutura do código e guia de estilo
+
+* [ ] Organizar e dividir o código em módulos (Modularização)
+* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
+* [ ] Uso de linter (ESLINT)
+
+### Git e GitHub
+
+* [ ] Uso de comandos de git (add | commit | pull | status | push)
+* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
 
 ## 4. Considerações gerais
 
 * Este projeto deve ser resolvido individualmente.
 * O projeto será entregue subindo o seu código no GitHub (commit/push) e o
   deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
-  preocupe, você aprendera durante o projeto.
+  preocupe, você aprenderá durante o projeto.
 
 ## 5. Critérios de aceitação mínimos do projeto
 
