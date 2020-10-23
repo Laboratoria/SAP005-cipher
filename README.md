@@ -236,7 +236,7 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    provavelmente o `git` também). Se você usa Windows pode baixar a versão
    completa do [Cmder](https://cmder.net/) que inclue o [Git
    bash](https://git-scm.com/download/win) , embora seja recomendado que você
-   teste :penguin: GNU/Linux. Se tem  Windows 10 ou superior pode usar o Windows
+   teste :penguin: GNU/Linux. Se tem  Windows 10 ou superior pode usar o [Windows
    Subsystem for
    Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. Faça seu próprio :fork_and_knife:
