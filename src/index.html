@@ -7,8 +7,91 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+     
+     <div id="all"><h1>C A E S A R  -  C I P H E R</h1>
+     
+          <nav id="menu">
+            <ul>
+              <li class="button1"> <a id="click1" onclick="show1()"> O que é?</a> </li>
+              <li class="button2"> <a id="click2" onclick="show2()"> Como funciona?</a> </li>
+              <li class="button3"> <a id="click3" onclick="show3()"> Vamos testar? </a> </li>
+            </ul>
+          </nav>
+
+            <div id="allOptions">
+
+              <div id="option1">
+                
+                  <p class="textOption1">
+                    Em criptografia, a Cifra de César, também conhecida como cifra de troca, 
+                    código de César ou troca de César, é uma das mais simples e conhecidas 
+                    técnicas de criptografia. 
+                  </p>
+                  
+                  <img class="medalhaoImg" src="./img/medalhão.jpg" alt="Medalhão da Cifra de Caesar">
+
+                  <p class="textOption1-2">
+                    O nome do método 
+                    é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.
+                    O processo de criptografia de uma cifra de César é frequentemente incorporado como
+                    parte de esquemas mais complexos, como a cifra de Vigenère, e continua tendo aplicações 
+                    modernas, como no sistema ROT13. 
+                  </p>
+              
+              </div>  
+
+              <div id="option2">
+                <p class="textOption2">
+                    É um tipo de cifra de substituição na qual cada 
+                    letra do texto é substituída por outra, que se apresenta no alfabeto abaixo 
+                    dela um número fixo de vezes. Por exemplo, com uma troca de três posições, 
+                    A seria substituído por D, B se tornaria E, e assim por diante.
+                </p>
+
+                <img class="cifraImg" src="./img/caesar-cipher.jpg" alt="Cifra de Cesar">
+              </div>  
+
+
+              <div id="option3">
+                <div id="in">
+                  <input class="phraseIn" type="text">
+                  <button onclick="" class="codeButton">Criptografar</button>
+                </div>
+                
+                <div id="out">
+                  <output id="resul">Resultado</output>
+                </div>
+              </div>  
+          </div>
     </div>
     <script src="index.js" type="module"></script>
+    
+    <script>
+        
+        let menu1 = document.getElementById("option1")
+        let menu2= document.getElementById("option2")
+        let menu3 = document.getElementById("option3")
+      
+        function show1(){
+          
+            menu1.style.display = "block"
+            menu2.style.display = "none"
+            menu3.style.display = "none"
+          } 
+        
+           function show2(){
+            menu1.style.display = "none"
+            menu2.style.display = "block"
+            menu3.style.display = "none"
+          }
+           function show3(){
+            menu1.style.display = "none"
+            menu2.style.display = "none"
+            menu3.style.display = "block"
+           
+          }
+
+    </script>
+    
   </body>
 </html>
