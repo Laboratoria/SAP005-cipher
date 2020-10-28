@@ -59,21 +59,21 @@ describe('cipher', () => {
       expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
 
-    // Hacker edition
-    
-    // Se quiser adicionar testes para letras minúsculas, descomente o teste
-    // abaixo.
-    //
-    // it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
-    //   expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
-    // });
+  //   // Hacker edition
 
-    // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
-    // teste abaixo.
-    //
-    // it('should return " !@" para " !@"', () => {
-    //   expect(cipher.decode(33, ' !@')).toBe(' !@');
-    // });
+  //   // Se quiser adicionar testes para letras minúsculas, descomente o teste
+  //   // abaixo.
+  //   //
+  //   // it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
+  //   //   expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
+  //   // });
+
+  //   // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
+  //   // teste abaixo.
+  //   //
+  //   // it('should return " !@" para " !@"', () => {
+  //   //   expect(cipher.decode(33, ' !@')).toBe(' !@');
+  //   // });
   });
 
 });

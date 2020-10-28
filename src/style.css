@@ -1,0 +1,21 @@
+body {
+  display: block;
+  text-align: center;
+  background-color: white;
+  color: #222;
+}
+
+#cabecalho {
+  padding: 0px;
+  margin: 0px;
+  color: #222;
+  background-color: #fb5;
+}
+
+#cod {
+  color: green;
+}
+
+#decod {
+  color: rgb(128, 4, 4);
+}

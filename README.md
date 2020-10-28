@@ -2,19 +2,19 @@
 
 ## Índice
 
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
+- [1. Prefácio](#1-prefácio)
+- [2. Resumo do projeto](#2-resumo-do-projeto)
+- [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+- [4. Considerações gerais](#4-considerações-gerais)
+- [5. Critérios de aceitação mínimos do
   projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras
+- [6. Hacker edition](#6-hacker-edition)
+- [7. Considerações técnicas](#7-considerações-técnicas)
+- [8. Guias, dicas e leituras
   complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+- [9. Checklist](#9-checklist)
 
-***
+---
 
 ## 1. Prefácio
 
@@ -33,10 +33,10 @@ substituida por outra que se encontra há um número fixo de posições
 
 Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
+- Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+- A letra A será D
+- A palavra CASA será FDVD
 
 Atualmente todas as cifras de substituição alfabética simples, são decifradas
 com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
@@ -54,10 +54,10 @@ necessário cifrar uma mensagem e pensar em como deve ser a experiência do
 usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
 exemplo:
 
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
-* Criar senhas seguras para email.
+- Mensagens secretas para alguma pessoa.
+- Ferramenta de mensagens internas de uma organização em uma zona de conflito.
+- Cifrar cartões de crédito.
+- Criar senhas seguras para email.
 
 ## 3. Objetivos de aprendizagem
 
@@ -67,44 +67,44 @@ JavaScript como ferramentas.
 
 ### HTML e CSS
 
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
-* [ ] Uso de seletores de CSS.
-* [ ] Construir uma aplicação respeitando o desenho realizado (protótipo).
+- [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
+- [ ] Uso de seletores de CSS.
+- [ ] Construir uma aplicação respeitando o desenho realizado (protótipo).
 
 ### DOM
 
-* [ ] Uso de seletores do DOM.
-* [ ] Manipular eventos do DOM.
-* [ ] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+- [ ] Uso de seletores do DOM.
+- [ ] Manipular eventos do DOM.
+- [ ] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+      (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
 ### JavaScript
 
-* [ ] Manipulação de strings.
-* [ ] Uso de condicionais (if-else | switch | operador ternário)
-* [ ] Uso de laços _(loops)_ (for | for..in | for..of | while)
-* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-* [ ] Declaração correta de variáveis (const & let)
+- [ ] Manipulação de strings.
+- [ ] Uso de condicionais (if-else | switch | operador ternário)
+- [ ] Uso de laços _(loops)_ (for | for..in | for..of | while)
+- [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
+- [ ] Declaração correta de variáveis (const & let)
 
 ### Testing
 
-* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
+- [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
 
 ### Estrutura do código e guia de estilo
 
-* [ ] Organizar e dividir o código em módulos (Modularização)
-* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
-* [ ] Uso de linter (ESLINT)
+- [ ] Organizar e dividir o código em módulos (Modularização)
+- [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
+- [ ] Uso de linter (ESLINT)
 
 ### Git e GitHub
 
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
+- [ ] Uso de comandos de git (add | commit | pull | status | push)
+- [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
 
 ## 4. Considerações gerais
 
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
+- Este projeto deve ser resolvido individualmente.
+- O projeto será entregue subindo o seu código no GitHub (commit/push) e o
   deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
   preocupe, você aprenderá durante o projeto.
 
@@ -112,46 +112,46 @@ JavaScript como ferramentas.
 
 Use o alfabeto simples (somente maiúsculas e sem ç):
 
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ### Definição do produto
 
 No README.md, escreva como você definiu seu usuário e qual foi o processo para
 definir o produto final a nível de expriência e interface.
 
-* Quem são os principais usuário do produto?
-* Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
+- Quem são os principais usuário do produto?
+- Quais são os objetivos do usuário em relação com o produto?
+- Como você acredita que o produto está resolvendo os problemas do usuário?
 
 ### Interface do usuário (UI)
 
 A interface deve permitir ao usuário:
 
-* Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
+- Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
   quer que a cifra utilize.
-* Inserir uma mensagem (texto) para ser cifrada.
-* Ver o resultado da mensagem cifrada.
-* Inserir uma mensagem (texto) para ser decifrada.
-* Ver o resultado da mensagem decifrada.
+- Inserir uma mensagem (texto) para ser cifrada.
+- Ver o resultado da mensagem cifrada.
+- Inserir uma mensagem (texto) para ser decifrada.
+- Ver o resultado da mensagem decifrada.
 
 ### Scripts / Arquivos
 
-* `REAME.md`: deve explicar como fazer deploy, instalar e executar a aplicação,
+- `REAME.md`: deve explicar como fazer deploy, instalar e executar a aplicação,
   assim como uma introdução a aplicação, suas funcionalidades e as decisões que
   foram tomadas.
-* `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
+- `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
   deve conter a marcação HTML e chamar o CSS e JavaScript necessários.
-* `src/cipher.js`: aqui você deve implementar o objeto `cipher`, o qual já está
+- `src/cipher.js`: aqui você deve implementar o objeto `cipher`, o qual já está
   _exportado_ no _boilerplate_. Este objeto (`cipher`) deve conter dois métodos:
   - `cipher.encode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a direita no alfabeto e `string` é a mensagem (texto)
-      que queremos cifrar.
+    queremos mover para a direita no alfabeto e `string` é a mensagem (texto)
+    que queremos cifrar.
   - `cipher.decode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
-      que queremos decifrar.
-* `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
+    queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
+    que queremos decifrar.
+- `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
   `cipher.encode()` e `cipher.decode()`.
-* `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
+- `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
   você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
 
 ## 6. Hacker Edition
@@ -210,8 +210,7 @@ como toda a configuração de dependências e testes de exemplo:
 O _boilerplate_ inclui tarefas que executam [eslint](https://eslint.org/) e
 [htmlhint](https://github.com/yaniswang/HTMLHint) para verificar o `HTML` e
 `JavaScript` com respeito a uma guia de estilos. Ambas tarefas são executadas
-automaticamente antes de executar os testes quando usamos o comando `npm run
-test`.
+automaticamente antes de executar os testes quando usamos o comando `npm run test`.
 
 No caso do `JavaScript` estamos usando o `eslint` que está configurado no
 arquivo `.eslintrc` que contem o mínimo de informação como versão do
@@ -221,7 +220,7 @@ recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
 Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 `eslint` quanto `htmlhint`.
 
-***
+---
 
 ## 8. Guias, dicas e leituras complementares
 
@@ -236,15 +235,15 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
    provavelmente o `git` também). Se você usa Windows pode baixar a versão
    completa do [Cmder](https://cmder.net/) que inclue o [Git
    bash](https://git-scm.com/download/win) , embora seja recomendado que você
-   teste :penguin: GNU/Linux. Se tem  Windows 10 ou superior pode usar o [Windows
+   teste :penguin: GNU/Linux. Se tem Windows 10 ou superior pode usar o [Windows
    Subsystem for
    Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Faça seu próprio :fork_and_knife:
+3. Faça seu próprio :fork*and_knife:
    [fork](https://help.github.com/articles/fork-a-repo/) do repositório. Seus
-   _mentores_ compartilharão com você um _link_ para um repositório privado e te
+   \_mentores* compartilharão com você um _link_ para um repositório privado e te
    darão acesso a este repositório.
-4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   o _fork_ para seu computador (cópia local).
+4. :arrow*down: [Clone](https://help.github.com/articles/cloning-a-repository/)
+   o \_fork* para seu computador (cópia local).
 5. 📦 Instale as dependências do projeto rodando o comando `npm install`. Mas
    antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
    (que inclui o [npm](https://docs.npmjs.com/)).
@@ -268,37 +267,37 @@ César](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/w
 
 Desenho da experiência do usuário (User Experience Design):
 
-* Ideação
-* Prototipagem
-* Teste e iteração
+- Ideação
+- Prototipagem
+- Teste e iteração
 
 Desenvolvimento Front-end:
 
-* Valores
-* Tipos
-* Variáveis
-* Controle de fluxo
-* Testes unitários
-* [Aprenda mais sobre
+- Valores
+- Tipos
+- Variáveis
+- Controle de fluxo
+- Testes unitários
+- [Aprenda mais sobre
   `charCodeAt()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
-* [Aprenda mais sobre
+- [Aprenda mais sobre
   `String.fromCharCode()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
-* [Aprenda mais sobre
+- [Aprenda mais sobre
   `ASCII`](https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm)
-* [Documentação do NPM](https://docs.npmjs.com/)
+- [Documentação do NPM](https://docs.npmjs.com/)
 
 Ferramentas:
 
-* GitHub y GitHub Pages.
+- GitHub y GitHub Pages.
 
 Organização do trabalho:
 
-* [Agilidade](https://www.youtube.com/watch?v=vozsjbh4noU)
-* [Scrum em menos de 2 minutos](https://www.youtube.com/watch?v=IKZHPjCQ2m8)
-* [Scrum em detalhes](https://www.youtube.com/watch?v=mt2hM4yrPn0). Não
+- [Agilidade](https://www.youtube.com/watch?v=vozsjbh4noU)
+- [Scrum em menos de 2 minutos](https://www.youtube.com/watch?v=IKZHPjCQ2m8)
+- [Scrum em detalhes](https://www.youtube.com/watch?v=mt2hM4yrPn0). Não
   esperamos que você faça tudo isso neste projeto. Iremos aprofundando nesses
   conceitos ao longo do _bootcamp_.
-* [Guia em espanhol para a
+- [Guia em espanhol para a
   cifra](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
 ## 9. Checklist
@@ -307,28 +306,28 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 
 ### Parte Obrigatória
 
-* [ ] `README.md` adicionar informação sobre o processo e decisões do desenho.
-* [ ] `README.md` explicar claramente quem são os usuários e as suas relações
-  com o produto.
-* [ ] `README.md` explicar claramente como o produto soluciona os
-  problemas/necessidades dos usuários.
-* [ ] Usar VanillaJS.
-* [ ] **Não** usar `this`.
-* [ ] Implementar `cipher.encode`.
-* [ ] Implementar `cipher.decode`.
-* [ ] Passar o linter com a configuração definida.
-* [ ] Passar as provas unitárias.
-* [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
-  no mínimo 50% das _branches_.
-* [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
-  para cifrar/decifrar.
-* [ ] Interface que permita escrever um texto para ser cifrado.
-* [ ] Interface que mostre o resultado da cifra corretamente.
-* [ ] Interface que permita escrever um texto para ser decifrado.
-* [ ] Interface que mostre o resultado decifrado corretamente.
+- [ ] `README.md` adicionar informação sobre o processo e decisões do desenho.
+- [ ] `README.md` explicar claramente quem são os usuários e as suas relações
+      com o produto.
+- [ ] `README.md` explicar claramente como o produto soluciona os
+      problemas/necessidades dos usuários.
+- [ ] Usar VanillaJS.
+- [ ] **Não** usar `this`.
+- [ ] Implementar `cipher.encode`.
+- [ ] Implementar `cipher.decode`.
+- [ ] Passar o linter com a configuração definida.
+- [ ] Passar as provas unitárias.
+- [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
+      no mínimo 50% das _branches_.
+- [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
+      para cifrar/decifrar.
+- [ ] Interface que permita escrever um texto para ser cifrado.
+- [ ] Interface que mostre o resultado da cifra corretamente.
+- [ ] Interface que permita escrever um texto para ser decifrado.
+- [ ] Interface que mostre o resultado decifrado corretamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [ ] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
-* [ ] Permitir usar `offset` negativo.
+- [ ] Cifrar/decifrar minúsculas.
+- [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
+- [ ] Permitir usar `offset` negativo.

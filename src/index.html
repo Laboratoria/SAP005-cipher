@@ -7,7 +7,67 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <header id="cabecalho">
+        <h1>Caesar Cipher</h1>
+      </header>
+
+
+      <div>
+
+       <!-- <p>Olá, click no botão e ajude sherlock holmes com sua mensagem.</p>-->
+        <img src="/img/menino-sherlock.png" alt="imagem de desenho do sherlock holmes">
+        <div>
+        <button>Codificar</button>
+        <button>Decodificar</button>
+      </div>
+      </div>
+
+      <section>
+        <h3 id="cod">Codificar</h3>
+        <p>Digite a mensagem para ser codificada.</p>
+        <textarea id="codificar" onchange=""></textarea>
+      </section>
+
+      <section>
+        <p>escolha um número.</p>
+        <select id="offset" onchange= "" >
+          <option value="0">1</option>
+          <option value="1">2</option>
+          <option value="2">3</option>
+          <option value="3">4</option>
+          <option value="4">5</option>
+          <option value="5">6</option>
+          <option value="6">7</option>
+          <option value="7">8</option>
+          <option value="8">9</option>
+          <option value="9">10</option>
+          <option value="10">11</option>
+          <option value="11">12</option>
+          <option value="12">13</option>
+          <option value="13">14</option>
+          <option value="14">15</option>
+          <option value="15">16</option>
+          <option value="16">17</option>
+          <option value="17">18</option>
+          <option value="18">19</option>
+          <option value="19">20</option>
+          <option value="20">21</option>
+          <option value="21">22</option>
+          <option value="22">23</option>
+          <option value="23">24</option>
+          <option value="24">25</option>
+          <option value="25">26</option>
+       </select>
+      </section>
+
+      <button type="button" onclick="encode()" >OK</button>
+
+      <section>
+        <h3 id="decod">Decodificar</h3>
+        <p>Digite a mensagem para ser decodificada.</p>
+        <textarea id="decodificar"></textarea>
+      </section>
+      <footer></footer>
     </div>
     <script src="index.js" type="module"></script>
   </body>
