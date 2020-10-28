@@ -6,7 +6,7 @@ html {
 }
 
 body  { 
-    background-image: url("/src/img/cesar.jpg");
+    background-image: url("./img/cesar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }   
