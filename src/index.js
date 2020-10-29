@@ -2,20 +2,22 @@ import cipher from './cipher.js';
 
 document.getElementById('encode').addEventListener('click', cifrar);
     function cifrar() {
-    const text = document.getElementById("msg").value;
+    const string = document.getElementById("msg").value;
     const offset = Number(document.getElementById("chave").value);
-    // let texto = cipher.encode(offset, text);
-    document.getElementById('text-encoded').innerHTML = cipher.encode(offset, text);
-
-    // `<p><stonge>${texto}</stonge></p>`;
+    if (string == "" || offset == "" ) {
+      alert("Ops... você esqueceu de preencher o campo para CRIPTOGRAFAR a mensagem ou não informou a CHAVE, tente novamente.");
+      } else {
+      document.getElementById("encode_decode").innerHTML = cipher.encode(offset, string);
+    }
 }
 
 document.getElementById('decode').addEventListener('click', decifrar);
     function decifrar() {
-    const text = document.getElementById("msg").value;
+    const string = document.getElementById("msg").value;
     const offset = Number(document.getElementById("chave").value);
-    // let texto = cipher.decode(offset, text);
-    document.getElementById('text-encoded').innerHTML = cipher.decode(offset, text);
-
-    // `<p><stonge>${texto}</stonge></p>`;
+    if (string == "" || offset == "" ) {
+      alert("Ops... você esqueceu de preencher o campo para DESCRIPTOGRAFAR a mensagem ou não informou a CHAVE, tente novamente.");
+      } else {
+      document.getElementById("encode_decode").innerHTML = cipher.decode(offset, string);
+    }
 }

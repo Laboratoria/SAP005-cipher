@@ -1,36 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cripto Chat</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <nav>
-    <a href="" id="">Home</a>
-    <a href="" id="">Sobre</a>
-    <a href="" id="">Codifica</a>
-    <a href="" id="">Decodifica</a>
-    <a href="" id="">Enviar Mensagem</a>
-  </nav>
+    <div class="menu">
+      <div class="logo">
+        <p><b>CRIPTO CHAT</b></p>
+      </div>
+      <div class="menu_link">
+        <nav>
+          <b>
+            <a href="" id="">Pagina Inicial</a>
+            <a href="" id="Sobre">Sobre</a>
+            <a href="" id="utilizacao">Como utilizar</a>
+            <a href="" id="">Codifica / Decodifica</a>
+          </b>
+        </nav>
+      </div>
+    </div>
 
-  <div id="root">
-    <textarea id="msg" cols="100" rows="20"></textarea>
+    <div>
 
-    <p id="text-encoded" ></p>
+    </div>
 
-    <input type="number" placeholder="Informe o numero de deslocamento" id="chave">
+    <div class="sobre">
+      <h2 id="#sobre">Olá! Seja bem vindo ao Cripto Chat.</h2>
+      <p>
+        O Crypto Chat, surgiu com objetivo de deixar as suas mensagens mais seguras, aqui você conseguira criptografar
+        suas mensagens copia e direcionar a Rede desejada para o seu destinatario sem ter medo que outra pessoa possa ter acesso a sua mensagem.<br><br>
+        Somente a pessoa que encaminha e a que recebe poderam ter acesso a chave de segurança (ou compartilharam entre si esta chave)
+        ou seja, sera encaminhdo de forma que somente o destinatario possa entender seu
+        conteudo, se o mesmo tiver a chave para decifra-la.<br>
+      </p>
 
-    <button value="encode" id="encode" >Cifrar</button>
+    </div>
 
-    <button value="decode" id="decode" >Decifrar</button>
+    <div class="utilizacao">
+      <h2 id="#utilizacao">Como utilizar</h2>
+      <p>
+        <b>1)</b> Primeiro informe uma chave, onde a mesma so podera ser compartilhada por você e seu destinatario, para critograr e Descriptografar ambos deveram ter a chave.<br><br></p>
+        <img  class="" src="https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif" alt="">
+        <p>
+        <b>2)</b>No primeiro escreva a mensagem que deseja <b>CRIPTOGRAFAR</b> ou <b>DESCRIPTOGRAFAR</b> e selecione o botão de acordo com sua escolha.<br><br>
+        <b>3)</b> Pronto!! Agora e so clicar em copiar e enviar a sua mensagem.
+      </p>
+    </div>
 
-  </div>
+    <div class="msg">
+      <div class="msg_texto">
+        <h4>1)Coloque o texto aqui</h4>
+        <textarea id="msg" cols="60" rows="25"></textarea>
+      </div>
+        <div class="msg_texto">
+          <h4>2)A Criptografia ou Descriptografia estara aqui </h4>
+        <textarea id="encode_decode" cols="60" rows="25"></textarea>
+      </div>
+      <div>
+        <h4>3)Informe ou crie uma nova chave. </h4>
+        <input type="number" placeholder="Informe a chave" id="chave">
+        <div class="botao">
+          <button value="encode" id="encode">Criptografar</button>
+          <button value="decode" id="decode">Descriptografar</button>
+        </div>
+      </div>
 
-  <footer></footer>
+    </div>
+
+    <div class="redes">
+      <h2>Redes Sociais</h2>
+      <p>Clique na Rede Social desejada, para direcionar sua mensagem, copiada.</p>
+      <a  href=" https://api.whatsapp.com/send?phone=seunumerodetelefone&text=sua%20mensagem" target="_blank">
+        <img class="whats" src="./img/Whatsap.png" alt="logo whatsapp">
+      </a>
+      <a href="">
+        <img class="face" src="./img/lfacebook.png" alt="logo facebook">
+      </a>
+      <a href="">
+        <img class="insta" src="./img/instagram.jpg" alt="">
+      </a>
+      <a href="">
+        <img class="twitter" src="./img/twitter.png" alt="">
+      </a>
+    </div>
+
+    <div>
+      <h2>É ai gostou ... ? bora compartilhar com os amigxs</h2>
+
+    </div>
+
+
+
+  <footer class="footer"><b>Lu Pereira - Copyright © 2019</b></footer>
 
   <script src="index.js" type="module"></script>
   <script src="cipher.js" type="module"></script>
 </body>
+
 </html>
