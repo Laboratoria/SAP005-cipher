@@ -1,23 +1,22 @@
+/* CORPO */
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     color: black;
-
+     background-color: #ccc;
 
 }
 
 h1, h2, h3{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(133, 36, 36);
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
 
 }
 
-.botao{
-    color: #706719;
-    text-decoration: none;
-    padding: 10px 30px;
-    background-color: #701942;
-    font-size: .9em;
-    border-end-end-radius: 3px;
+/* Naveção*/
+.forms{
+    background-color: #e2dede; /* parte inferior*/
+
+
 }
 
 nav {
@@ -25,105 +24,69 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #191970;
+    background-color: #0f4098;
 
 }
 
 nav > a {
-    text-decoration: none;
-    color: #1982;
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 nav ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 100%; 
 }
 nav ul li{
-    text-align: center;
-    width: 100%;
+         width: 100%;
+         text-align: center;
 }
 
 nav ul li a{
-    display: inline-block;
-    padding: 10px 0;
-    width: 100%;
-    color: #189618;
+            display: inline-block;
+            padding: 10px 0;
+            width: 100%;
+            text-decoration: none;
+            color: #ffffff;
 
 }
+
+
+/* Cabeçalho*/
 header{
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("img/fundo.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: #1916;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
     }
 
 header h1{
-    color: #1919;
+    color: #ffffff;
 }
 
 
 header p{
-    margin-bottom: 2cm;
-
-}
-#sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px 10px 20px 20px;
-    background-color: antiquewhite;
-    color: #191970;
-}
-
-#sobre h2{
-    margin-bottom: 2.5em;
-    max-width: 1000px;
-}
-
-#sobre .botao{
-    background-color: #119999;
-    color: #6d1970;
+    margin-bottom: 2em;
 
 }
 
-#fotos{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 20px;
 
-}
-
-#fotos h2{
-
-    margin-bottom: 20px;
-
-}
-
-#fotos img{
-
-    width: 100%;
-}
-
-footer{
-    text-align: center;
-    padding: 10px;
-    background-color: #701942;
-    color: #706719
-}
 /*Medidas para demais dispositos */ 
 @media screen and (min-width: 768px) { 
 
@@ -139,44 +102,69 @@ nav ul {
 
 }
 header {
-
+   
     height: 600px;
     height: 60vh;
     justify-content: center;
 }
 
 
-#sobre{
-height: 250px;
-height: 30vh;
-justify-content: center;
-min-height: 250px;
-}
-
-
-#fotos{
-    flex-direction: row;
-    flex-wrap: wrap;
-
-
-
-}
-
 #fotos img{
     width: 33.3333333%;
 
+
+/* Formulario de login*/
+
+
+
+ 
 }
 .form {
-    background-color: #189618;
+   
     width: 400px;
-    margin: auto;
+   margin: left;
+   padding-left: 600px;/* Para colocar a direita utilizar padding-right*/
+   padding-top: 60px;
+   padding-bottom: 50px;
 
 }
 
 .card {
 
-    box-shadow: 1px 1px 5px #ccc;
-    background-color: #701942;
+    box-shadow: 1px 1px 5px #f7f7f7;
+    background-color: #f7f7f7;
     padding: 30px;
     border-radius: 5px;
 }
+
+
+
+.card-top {
+    text-align: center;
+
+}
+.card-grupo > label{
+    width: 100%;
+    color: rgba(228, 0, 178, 0.6);
+    display: block;
+}
+
+.card-grupo >input{
+border-radius:  5px;
+outline: 0;
+width: 100%;
+height: 30px;
+}
+
+
+.imglogin{
+    border-radius: 150px;
+    width: 200px;
+    box-shadow:  #6e353d;
+}
+
+.titleLogin{
+    color: #000000;
+}
+
+

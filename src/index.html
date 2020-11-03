@@ -12,47 +12,61 @@
 
 <body>
   <nav>
-    <a href="#">Logo</a>
-    <ul>
-      <li>
-        <a href="#sobre">Sobre </a>
 
-      </li>
+
+
+    <ul>
+
       <li>
         <a href="inicio">Início</a>
       </li>
       <li>
-        <a href="Login">Login</a>
+        <a href="#topo">Sobre </a>
+      </li>
+      <li>
+        <a href="#login">Login</a>
       </li>
 
     </ul>
 
 
   </nav>
+
+
   <header id="topo">
 
-    <h1>Força Aérea Brasileira - Área Restrita Login</h1>
+    <h1>Força Aérea Brasileira - Área Restrita</h1>
+
     <h2>Login</h2>
-    <p>INCERIR ALGO SOBRE A CIFRA</p>
-    <a href="#Orientações" class="botao">Orientações Gerais</a>
+    <p>INCERIR ALGO SOBRE A CIFRA***</p>
+
+
 
 
   </header>
-  <fomr class="form" action="">
-    <div class="card"></div>
-    <div class="card-top">
-      <img src="" alt="">
-      <h2> Painel de Controle</h2>
-      <button onclick="sorteio()">Sortear</button>
-
-      <h1 id="sorteio"></h1>
+  <nav class="forms" Id="login">
 
 
+    <fomr class="form" action="">
+      <div class="card">
+        <div class="card-top">
+          <img class="imglogin" src="img/avatar.png" alt="imagem_do_usuario">
 
-      </h2>
-    </div>
-  </fomr>
+          <h2 class="titleLogin"> Painel de Controle</h2>
+          <button type="button" onClick="sorteio()">Sortear</button>
+          <h1 id="resultado">Código</h1>
+        </div>
+        <div class="card-grupo">
+          <label>Usuário (CODIFICADO)</label>
+          <imput type="text" name="Usuário"></imput>
+        </div>
+      </div>
 
+    </fomr>
+
+
+
+  </nav>
 
 
 

@@ -3,14 +3,9 @@ import cipher from './cipher.js';
 console.log(cipher);
 
 
-
 function sorteio() {
-    const getRandomIntegerInclusive = (min, max) =>
-        Math.floor(Math.random() * (max - min + 1)) + min;
+    return document.getElementById("resultado").innerHTML = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
 
-    document.getElementById("sorteio").innerHTML = sort;
-
-    console.log(getRandomIntegerInclusive(1, 100))
 }
-
+console.log("resultado")
 
