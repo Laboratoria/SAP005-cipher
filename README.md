@@ -1,4 +1,4 @@
-# Cifra de César
+# KG - LAB005
 
 ## Índice
 
@@ -18,7 +18,7 @@
 
 ## 1. Prefácio
 
-Cifrar significa codificar. A [cifra de
+Este projeto foi baseado na Cifra deCesar, onde Cifrar significa codificar. A [cifra de
 César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
 tipos de criptografias conhecidas na história. O imperador romano Júlio César
 utilizava essa cifra para enviar ordens secretas aos seus generais no campo de
@@ -59,17 +59,17 @@ exemplo:
 * Cifrar cartões de crédito.
 * Criar senhas seguras para email.
 
-## 3. Objetivos de aprendizagem
+## 3. Objetivos do projeto
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
+O objetivo do projeto e realizar a _criptografia_ e a _descriptografia_ de mensagens com a simples inserção
+da mensagem no campo e preencha o numero de deslocamento para realizar o processo.
 
-### HTML e CSS
+![]
 
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
-* [ ] Uso de seletores de CSS.
-* [ ] Construir uma aplicação respeitando o desenho realizado (protótipo).
+### Utilização
+
+* [ ] [Chave](./src/img)
+.
 
 ### DOM
 
