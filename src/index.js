@@ -8,4 +8,3 @@ function sorteio() {
 
 }
 console.log("resultado")
-

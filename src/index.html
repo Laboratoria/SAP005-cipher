@@ -11,15 +11,13 @@
 </head>
 
 <body>
-  <nav>
-
+  <nav class="menu-top">
+    <div> <img class="logo" src="img/logo_40px.png" /> </div>
 
 
     <ul>
 
-      <li>
-        <a href="inicio">Início</a>
-      </li>
+
       <li>
         <a href="#topo">Sobre </a>
       </li>
@@ -44,26 +42,37 @@
 
 
   </header>
+
   <nav class="forms" Id="login">
 
 
-    <fomr class="form" action="">
+    <fomr class="form" action="#">
       <div class="card">
         <div class="card-top">
           <img class="imglogin" src="img/avatar.png" alt="imagem_do_usuario">
-
           <h2 class="titleLogin"> Painel de Controle</h2>
           <button type="button" onClick="sorteio()">Sortear</button>
-          <h1 id="resultado">Código</h1>
+          <h1 id="resultado"></h1>
         </div>
+
         <div class="card-grupo">
-          <label>Usuário (CODIFICADO)</label>
-          <imput type="text" name="Usuário"></imput>
+          <label for="usuario">Usuário:</label>
+          <input id="usuario" type="text" placeholder="Digite seu usuário CODIFICADO" required>
         </div>
+
+        <div class="card-grupo">
+          <label for="senha">Senha:</label>
+          <input id="senha" type="password" placeholder="Digite sua senha CODIFICADO" required>
+        </div>
+
+        <div class="card-grupo btn">
+          <button id="botaoEnviar" type="submit">ACESSAR</button>
+        </div>
+
+
       </div>
 
     </fomr>
-
 
 
   </nav>
