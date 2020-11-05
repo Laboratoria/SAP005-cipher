@@ -5,7 +5,7 @@ const cipher = {
     let maiusculo = string.toUpperCase();
     for (let deslocamento = 0; deslocamento < maiusculo.length; deslocamento++) {
       let codeLetra = maiusculo[deslocamento]
-      if (codeLetra !== " ") {
+      if (codeLetra !== "") {
         let novaLetra = codeLetra.charCodeAt();
         let novoCode = ((novaLetra - 65 + parseInt(offset)) % 26) + 65;
         codeLetra = String.fromCharCode(novoCode);
@@ -13,8 +13,9 @@ const cipher = {
       palavraDigitada = palavraDigitada + codeLetra;
     }
     return palavraDigitada
-  }/*Descriptografar*/
-  , decode: function (offset, string) {
+  },
+  /*Descriptografar*/
+  decode: function (offset, string) {
     let palavraDigitada = ""
     let maiusculo = string.toUpperCase();
     for (let deslocamento = 0; deslocamento < maiusculo.length; deslocamento++) {
@@ -27,9 +28,9 @@ const cipher = {
       palavraDigitada = palavraDigitada + codeLetra
     }
     return palavraDigitada
-
-  } /*Sorteio*/
-  , sorteio: function () {
+  },
+  /*Sorteio*/
+  sorteio: function () {
     return document.getElementById("resultado").innerHTML
       = Math.floor(Math.random() * (25 - 1 + 1)) + 1;
   }

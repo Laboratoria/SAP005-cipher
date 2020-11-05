@@ -5,116 +5,84 @@
   <meta charset="utf-8">
   <title>Força Aérea - Área Restrita Login</title>
   <link rel="stylesheet" type="text/css" href="normalize.css" />
-
   <link rel="stylesheet" type="text/css" href="style.css" />
-
 </head>
 
 <body>
   <nav class="menu-top">
-    <div> <img class="logo" src="img/logo_40px.png" alt="logo" /> </div>
-
-
+    <div>
+      <img class="logo" src="img/logo_40px.png" alt="logo" />
+    </div>
     <ul>
-
-
       <li>
         <a href="#topo">Sobre </a>
       </li>
       <li>
         <a href="#login">Login</a>
       </li>
-
     </ul>
-
-
   </nav>
 
-
   <header id="topo">
-
     <h1>Força Aérea Brasileira - Área Restrita</h1>
-
     <h2>Login</h2>
     <p>INCERIR ALGO SOBRE A CIFRA***</p>
-
-
   </header>
 
-
-
-
+  <!--CAMPO DA CIFRA-->
   <nav class="forms" id="login">
 
-
-
-    <section class="container display-none" id="page2">
-
-
+    <section class="container display-none">
       <div class="form-initial">
         <form>
           <div class="input-group">
-            <label for="mensagem">INSIRA O USUARIO/SENHA:</label>
-            <textarea id="msg"></textarea>
+            <label for="mensagemUsuario">INSIRA O USUARIO/SENHA:</label>
+            <textarea id="mensagemUsuario"></textarea>
           </div>
-
           <div class="input-group">
             <label for="offset">CÓDIGO FORNECIDO PAINEL DE CONTROLE: </label>
             <input type="number" id="offset" placeholder="Código">
           </div>
-
           <div class="input-group">
-            <label for="choice">SELECIONE A OPÇÃO DESEJADA</label>
+            <label for="criptografar">SELECIONE A OPÇÃO DESEJADA</label>
             <div id="btn-option">
-              <input type="button" id="choice" class="btn" value="criptografar">
-              <input type="button" id="choice2" class="btn" value="descriptografar">
+              <input type="button" id="criptografar" class="criptografar" value="CRIPTOGRAFAR">
+              <input type="button" id="descriptografar" class="descriptografar" value="DESCRIPTOGRAFAR">
             </div>
           </div>
         </form>
-
-        <section id="result" class="display-none">
-          <h3>Resultado: </h3>
-          <p id="result-name"></p>
-        </section>
-
+        <div id="resultadoP" class="display-none">
+          <h3>RESULTADO NOVO LOGIN: </h3>
+          <p id="resultadoFinal"></p>
+        </div>
       </div>
     </section>
 
-
-
+    <!--CAMPO FORMULARIO LOGIN-->
 
     <form class="form" action="#">
       <div class="card">
         <div class="card-top">
           <img class="imglogin" src="img/avatar.png" alt="imagem_do_usuario">
           <h2 class="titleLogin"> Painel de Controle</h2>
-          <button type="button" id="btnSorteio">Sortear</button>
+          <button type="button" class="buttonSorteio" id="btnSorteio">Código</button>
           <h1 id="resultado"></h1>
         </div>
-
         <div class="card-grupo">
           <label for="usuario">Usuário:</label>
           <input id="usuario" type="text" placeholder="Digite seu usuário CODIFICADO" required>
         </div>
-
         <div class="card-grupo">
           <label for="senha">Senha:</label>
           <input id="senha" type="password" placeholder="Digite sua senha CODIFICADO" required>
         </div>
-
         <div class="card-grupo btn">
           <button id="botaoEnviar" type="submit">ACESSAR</button>
         </div>
-
-
       </div>
-
     </form>
 
-
   </nav>
-
-
 
   <script src="index.js" type="module"></script>
 

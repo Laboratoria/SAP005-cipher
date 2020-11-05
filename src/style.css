@@ -2,35 +2,26 @@
 body{
     font-family: sans-serif;
     color: black;
-     background-color: #ccc;
-width: 100%;
-height: 100%;
-
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
 }
 
-
-
-
 .logo{
-    padding: 9px;
+   padding: 9px;
    max-width: 200px;
    max-height: 150px;
    width: 70px;
-   
 }
 
-
 h1, h2, h3{
-            font-family: Arial, Helvetica, sans-serif;
-            color: black;
-
+    font-family: sans-serif;
+    color: black;
 }
 
 /* Naveção*/
 .forms{
     background-color: #e2dede; /* parte inferior*/
-
-
 }
 
 .menu-top{
@@ -40,57 +31,47 @@ h1, h2, h3{
     width: 100%;
     padding: 9px 0 ;
     text-align: center;
-
 }
 
-
 nav {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #0f4098;
-    
-    
 }
 
 nav > a {
-        text-decoration: none;
-        color: #ffffff;
-        font-weight: 900;
-        font-size: 32px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 nav ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        list-style: none;
-        padding: 0;
-        width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%; 
 }
+
 nav ul li{
-         width: 100%;
-         text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 nav ul li a{
-            display: inline-block;
-            padding: 10px 0;
-            width: 100%;
-            text-decoration: none;
-            color: #ffffff;
-
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
 }
-
 
 /* Cabeçalho*/
 header{
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,93 +82,138 @@ header{
     color: #ffffff;
     text-align: center;
     padding: 100px;
-    }
+}
 
 header h1{
     color: #ffffff;
 }
 
-
 header p{
     margin-bottom: 2em;
-
 }
-
 
 /*Medidas para demais dispositos */ 
 @media screen and (min-width: 768px) { 
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
-nav {
-    flex-direction: row;
-    justify-content: space-around;
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center; 
+    }
 }
-
-nav ul {
-
-    flex-direction: row;
-    width: 70%;
-
-}
-header {
-   
-    height: 600px;
-    height: 60vh;
-    justify-content: center;
-}
- }
 
 #fotos img{
     width: 33.3333333%;
 }
 
+/*CIFRA*/
+.container {
+    width: 400px;
+    margin: left;
+    padding-left: 20px;/* Para colocar a direita utilizar padding-right*/
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.form-initial{
+    box-shadow: 1px 1px 5px #f7f7f7;
+    background-color: #f7f7f7;
+    padding: 60px;
+    border-radius: 20px; 
+}
+
+.criptografar{
+    background-image: linear-gradient(to right, #001c50, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 13px;
+    border: 0px;
+    outline: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.criptografar:hover{ 
+    background-image: linear-gradient(to right, #2d5aa8, #001c50);
+}
+
+.descriptografar{
+    background-image: linear-gradient(to right, #001c50, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 13px;
+    border: 0px;
+    outline: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.descriptografar:hover{ 
+    background-image: linear-gradient(to right, #2d5aa8, #001c50);
+}
+
+.input-group >input{
+    border-radius:  5px;
+    outline: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding: 5px;
+}
+
+.input-group > label{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
 
 /* Formulario de login*/
-
 .form {
-   
-  width: 400px;
+   width: 400px;
    margin: left;
-   padding-left: 600px;/* Para colocar a direita utilizar padding-right*/
+   padding-left: 15px;/* Para colocar a direita utilizar padding-right*/
    padding-top: 60px;
    padding-bottom: 50px;
-
 }
 
 .card {
-
     box-shadow: 1px 1px 5px #f7f7f7;
     background-color: #f7f7f7;
     padding: 30px;
     border-radius: 20px; 
 }
 
-
-
 .card-top {
     text-align: center;
-
 }
 
 .card-grupo{
-
     margin-bottom: 10px;
-   }
+}
+
 .card-grupo > label{
     width: 100%;
     color: rgba(0, 0, 0, 0.6);
     display: block;
-    
 }
 
 .card-grupo >input{
-border-radius:  5px;
-outline: 0;
-width: 100%;
-height: 20px;
-padding-top: 5px;
-padding: 5px;
-
-
+    border-radius:  5px;
+    outline: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding: 5px;
 }
 
 .card-grupo> button{
@@ -199,14 +225,22 @@ padding: 5px;
     outline: 0;
     margin-top: 10px;
     color: white;
-
-
-
 }
+
 .btn button:hover{ 
     background-image: linear-gradient(to right, #2d5aa8, #001c50);
 }
 
+.buttonSorteio{
+    background-image: linear-gradient(to right, #001c50, #2d5aa8);
+    width: 50%;
+    border-radius: 30px;
+    padding: 8px;
+    border: 0px;
+    outline: 0;
+    margin-top: 2px;
+    color: white;
+}
 
 .imglogin{
     border-radius: 150px;
