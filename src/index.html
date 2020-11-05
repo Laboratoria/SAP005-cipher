@@ -12,7 +12,7 @@
 
 <body>
   <nav class="menu-top">
-    <div> <img class="logo" src="img/logo_40px.png" /> </div>
+    <div> <img class="logo" src="img/logo_40px.png" alt="logo" /> </div>
 
 
     <ul>
@@ -39,19 +39,56 @@
     <p>INCERIR ALGO SOBRE A CIFRA***</p>
 
 
-
-
   </header>
 
-  <nav class="forms" Id="login">
 
 
-    <fomr class="form" action="#">
+
+  <nav class="forms" id="login">
+
+
+
+    <section class="container display-none" id="page2">
+
+
+      <div class="form-initial">
+        <form>
+          <div class="input-group">
+            <label for="mensagem">INSIRA O USUARIO/SENHA:</label>
+            <textarea id="msg"></textarea>
+          </div>
+
+          <div class="input-group">
+            <label for="offset">CÓDIGO FORNECIDO PAINEL DE CONTROLE: </label>
+            <input type="number" id="offset" placeholder="Código">
+          </div>
+
+          <div class="input-group">
+            <label for="choice">SELECIONE A OPÇÃO DESEJADA</label>
+            <div id="btn-option">
+              <input type="button" id="choice" class="btn" value="criptografar">
+              <input type="button" id="choice2" class="btn" value="descriptografar">
+            </div>
+          </div>
+        </form>
+
+        <section id="result" class="display-none">
+          <h3>Resultado: </h3>
+          <p id="result-name"></p>
+        </section>
+
+      </div>
+    </section>
+
+
+
+
+    <form class="form" action="#">
       <div class="card">
         <div class="card-top">
           <img class="imglogin" src="img/avatar.png" alt="imagem_do_usuario">
           <h2 class="titleLogin"> Painel de Controle</h2>
-          <button type="button" onClick="sorteio()">Sortear</button>
+          <button type="button" id="btnSorteio">Sortear</button>
           <h1 id="resultado"></h1>
         </div>
 
@@ -72,7 +109,7 @@
 
       </div>
 
-    </fomr>
+    </form>
 
 
   </nav>
@@ -80,6 +117,7 @@
 
 
   <script src="index.js" type="module"></script>
+
 </body>
 
 </html>

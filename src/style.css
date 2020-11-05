@@ -140,15 +140,12 @@ header {
     width: 33.3333333%;
 }
 
+
 /* Formulario de login*/
-
-
-
- 
 
 .form {
    
-    width: 400px;
+  width: 400px;
    margin: left;
    padding-left: 600px;/* Para colocar a direita utilizar padding-right*/
    padding-top: 60px;
@@ -220,3 +217,5 @@ padding: 5px;
 .titleLogin{
     color: #000000;
 }
+
+
