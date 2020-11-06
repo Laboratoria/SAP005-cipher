@@ -26,6 +26,9 @@ h1 {
     height: 60px;
     
 }
+.hifenH1 {
+    color: rgb(7, 19, 59);
+}
 
 
 /* Menu */
@@ -39,8 +42,8 @@ h1 {
     list-style: none;
 }
 #menu ul li {
-    width: 30%;
-    height: 40px;
+    /*width: 30%;*/
+   /* height: 40px; */
     margin: 1px 4px;
     padding: 2px 10px;
 
@@ -63,6 +66,8 @@ h1 {
 }
 
 .button1 {
+    height: 100%;
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -79,6 +84,13 @@ h1 {
 }
 
 .button3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-overflow: clip;
+    overflow: hidden;
+}
+.button4 {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -104,7 +116,8 @@ h1 {
 .textOption1 {
     width: 90%;
     margin-left: 30px;
-    background-color: rgba(16, 32, 100, 0.507);
+    padding: 7px;
+    background-color:  rgba(6, 13, 41, 0.863);
 
     color: white;
     text-align: justify;
@@ -112,15 +125,16 @@ h1 {
     font-size: 25px;
 }
 .medalhaoImg{
-    border-radius: 200px;
+    border-radius: 140%;
     margin-left: 800px;
 }
 
 .textOption1-2 {
     width: 90%;
     margin-left: 30px;
-    background-color: rgba(16, 32, 100, 0.507);
+    background-color:  rgba(6, 13, 41, 0.863);
 
+    padding: 7px;
     color: white;
     text-align: justify;
     font-style: initial;
@@ -136,8 +150,9 @@ h1 {
 .textOption2 {
     width: 90%;
     margin-left: 30px;
-    background-color: rgba(16, 32, 100, 0.507);
+    background-color:  rgba(6, 13, 41, 0.863);
 
+    padding: 7px;
     color: white;
     text-align: justify;
     font-style: initial;
@@ -153,17 +168,22 @@ h1 {
 
 #option3{
     display: none;
+
 }
+
 
 /* Caixa de entrada de dados */
 
 #in {
     width: 90%;
-    margin-left: 900px;
+    margin-left: 500px;
+    margin-top: 50px;
 }
 
 .phraseIn {
-    margin-right: 3px;
+    margin-right: 5px;
+    width: 300px;
+    height: 50px;
 }
 
 
@@ -171,9 +191,33 @@ h1 {
 /* Caixa de saída de dados */
 
 #out {
-    width: 90%;
-    margin-left: 900px;
+    width: 50%;
+    margin-left: 500px;
     margin-top: 30px;
+}
+
+.select {
+    display: block;
+    margin-top: 3px;
+}
+.cipherIn {
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.offset {
+    background: rgba(4, 4, 48, 0.747);
+    border: rgba(15, 15, 99, 0.486);
+    border-radius: 10px;
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+    width: 260px;
+    height: 30px;
+
+    cursor: pointer;
+    transition: .5s;
 }
 
 .codeButton{
@@ -181,27 +225,97 @@ h1 {
     border: rgba(15, 15, 99, 0.486);
     border-radius: 10px;
 
-    color: rgb(218, 191, 38);
-    font-size: 20px;
+    color: rgb(248, 248, 248);
+    font-size: 30px;
+    font-style: unset;
 
-    width: 130px;
-    height: 30px;
+    width: 200px;
+    height: 50px;
 
     cursor: pointer;
     transition: .5s;
 }
-
-.codeButton:hover {
-    background-color: rgb(231, 172, 9);
-    color: rgba(15, 15, 99, 0.623) ;
+#capturarCipher {
+    width: 230px;
 }
 
-#resul {
-    background-color: rgba(13, 13, 110, 0.514);
+.codeButton:hover {
+    background-color: rgb(27, 9, 129);
+    color: rgb(255, 255, 255) ;
+}
+
+#valorFinal {
+    background-color: rgba(8, 8, 68, 0.822);
     border: 40px;
     padding: 20px;
 
+    border-radius: 10px;
     color: white;
     font-size: 30px;   
 }
 
+/* Opção 4 Desafio */
+
+#option4 {
+    display: none;
+}
+.textOption4 {
+    
+    padding: 10px;
+    width: 40%;
+    margin-left: 30px;
+
+    border-radius: 6px;
+    background-color: rgba(6, 13, 41, 0.863);
+
+    color: white;
+    text-align: center;
+    font-style: initial;
+    font-size: 19px;
+}
+.textOption4 h2 {
+    padding: 0;
+    margin: 0;
+}
+.textOption4 p {
+    width: 95%;
+    font-size: 20px;
+    font-style: initial;
+    text-align: center;
+}
+
+#dica {
+    background: rgb(8, 8, 80);
+    border: rgba(15, 15, 99, 0.486);
+    border-radius: 10px;
+
+    color: rgb(218, 191, 38);
+    font-size: 30px;
+    font-style: unset;
+
+    width: 200px;
+    height: 50px;
+
+    cursor: pointer;
+    transition: .5s;
+}
+#dica:hover {
+    background-color: rgb(231, 172, 9);
+    color: rgba(15, 15, 99, 0.623) ;
+}
+
+.textDesafio {
+    
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    background-color: rgba(7, 13, 43, 0.959);
+    border-radius: 5px;
+
+    color: white;
+    text-align: justify;
+    font-style: initial;
+    font-size: 30px;
+}

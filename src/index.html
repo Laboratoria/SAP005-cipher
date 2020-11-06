@@ -12,13 +12,14 @@
   <body>
     <div id="root">
      
-     <div id="all"><h1>C A E S A R  -  C I P H E R</h1>
+     <div id="all"><h1>C A E S A R  <span class="hifenH1"> -- </span>  C I P H E R</h1>
      
           <nav id="menu">
             <ul>
-              <li class="button1"> <a id="click1" onclick="show1()"> O que é?</a> </li>
-              <li class="button2"> <a id="click2" onclick="show2()"> Como funciona?</a> </li>
-              <li class="button3"> <a id="click3" onclick="show3()"> Vamos testar? </a> </li>
+              <a id="click1">  <li class="button1"> O que é? </li> </a>
+              <a id="click2"> <li class="button2"> Como funciona? </li></a>
+              <a id="click3"> <li class="button3">  Vamos testar?  </li> </a>
+              <a id="click4"> <li class="button4">  Desafio de lógica  </li></a>
             </ul>
           </nav>
 
@@ -56,46 +57,80 @@
               </div>  
 
 
-              <div id="option3">
-                <div id="in">
-                  <input class="phraseIn" type="text">
-                  <button onclick="" class="codeButton">Criptografar</button>
-                </div>
-                
-                <div id="out">
-                  <output id="resul">Resultado</output>
-                </div>
-              </div>  
+           <div id="option3">
+              <div id="in">
+                <form action="">
+                    <input class="phraseIn" id="phrase" type="text">
+                    <input type="submit" value="Criptografar" id="capturar" class="codeButton">
+                  </form>
+                  <div class="select">
+                  <select name="deslocamento" class="offset" id="offset">
+                      <option value="0">Selecione o deslocamento</option>
+                      <option value="1">1</option> 
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                  </select>
+                </div> 
+             </div>
+
+             <div id="out">
+              <output id="valorFinal">Resultado</output>
+             </div>
+
+          <div class="cipherIn">
+             <form action="">
+              <input class="phraseIn" id="phraseCipher" type="text">
+              <input type="submit" value="Descriptografar" id="capturarCipher" class="codeButton">
+            </form>
+            <div class="select">
+            <select name="deslocamento" class="offset" id="offsetCipher">
+                <option value="0">Selecione o deslocamento</option>
+                <option value="1">1</option> 
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+            </select>
+          </div>
+        </div>
+        </div>  
+
+              <div id="option4">
+                <div class="textOption4">
+                <h2>Você consegue resolver este sozinho?</h2>
+                <p> Observe a repetição das letras e tente chegar
+                   a uma conclusão. Não conseguiu? Calma!
+                   Temos uma ajudinha guardada para você. BOA SORTE!
+               </p>
+                 <button id="dica">Dica</button>
+
+            </div>
+            <div class="textDesafio">YJAJKNWB JPXAJ ZDN EXLN ANBXUEND NBBN NWRPVJ LXVYJACRUQN 
+              J YJPRWJ LXV DV JVRPX XD JVRPJ ZDN CJVKPV LDACJ MNBJORXB N
+              LXMRPXB N CAXZDNV VNWBJPNWB LARYCXPAJOJMJB.</div>
+              </div>
+
           </div>
     </div>
-    <script src="index.js" type="module"></script>
-    
-    <script>
-        
-        let menu1 = document.getElementById("option1")
-        let menu2= document.getElementById("option2")
-        let menu3 = document.getElementById("option3")
-      
-        function show1(){
-          
-            menu1.style.display = "block"
-            menu2.style.display = "none"
-            menu3.style.display = "none"
-          } 
-        
-           function show2(){
-            menu1.style.display = "none"
-            menu2.style.display = "block"
-            menu3.style.display = "none"
-          }
-           function show3(){
-            menu1.style.display = "none"
-            menu2.style.display = "none"
-            menu3.style.display = "block"
-           
-          }
+    <script src="./index.js" type="module"></script>
 
-    </script>
-    
   </body>
 </html>
