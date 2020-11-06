@@ -6,7 +6,7 @@ function cifrar() {
   const offset = Number(document.getElementById("chave").value);
 
   if (mensagem == "" || offset == "") {
-    alert("Campo 1)Chave ou 2) Texto da mensagem esta em branco");
+    alert("Campo 1) Chave ou 2) Texto da mensagem esta em branco");
   } else {
     document.getElementById("encode_decode").innerHTML = cipher.encode(offset, mensagem);
   }
