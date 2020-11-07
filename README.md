@@ -2,22 +2,21 @@
 
 # KG - LAB005
 
-<img src="./src/img/home.png" />
-
-![home](src/img/home.png)
-
+![home](https://user-images.githubusercontent.com/37550557/98432802-b183e780-20a0-11eb-82ed-0cb77b6249a4.JPG)
 
 ## Índice
 
 * [1. Introdução](#1-Introdução)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [4. Utilização](#4-Utilização)
+* [5. Deploy](#5-Deploy)
 
 ***
 
 ## 1. Introdução
 
-Se torna cada vez mais dificil transmitir mensagens de forma segura e pratica, sem temer que a mensagem encaminhada possa ser transmitida a outra pessoa que não seja o destinatario encaminhado, por este motivo foi desenvolvido um site para codificar e descodificar mensagens, seja ela enviada ou recebida.
+Se torna cada vez mais dificil transmitir mensagens de forma segura e pratica, sem temer que a mensagem encaminhada possa ser transmitida a outra pessoa que não seja o destinatario encaminhado, por este motivo foi desenvolvido um site para codificar e descodificar mensagens.
 
 ## 2. Resumo do projeto
 
@@ -29,47 +28,41 @@ substituida por outra que se encontra há um número fixo de posições
 
 ## 3. Objetivos do projeto
 
-O objetivo do projeto e realizar a _criptografia_ e a _descriptografia_ de mensagens  de forma segura e objetiva ao destinario, o mesmo que corpatilhara da chave para ter acesso a mensagem. Garantindo assim que a mensagem seja lida por terceiros que não tem acesso a chave.
+O objetivo do projeto e realizar a _criptografia_ e a _descriptografia_ de mensagens  de forma segura e objetiva ao destinario, onde somente quem envia e odestinatario corpatilharam de uma chave para ter acesso a mensagem. Garantindo assim que a mensagem não seja lida por terceiros ou pessoas não autorizadas.
+
+![chave](https://user-images.githubusercontent.com/37550557/98432827-e8f29400-20a0-11eb-8dd2-5e3762d7383a.JPG)
+
 
 ## 4. Utilização
 
-* ![Chave](./src/img/chave)
+A utilização da aplicação e fácil e prática, temos 3 campos onde:
 
-A utilização da aplicação e fácil e pratica, temos 3 campos onde:
-1º E onde iremos criar ou inserir uma chave para a  _criptografia_ e a _descriptografia_ que sera compartilhada entre você e o destinatario, garantidindo assim a segurança no envio da mensagem.
+1º E onde iremos criar ou inserir uma chave para a  _criptografia_ e a _descriptografia_ que sera compartilhada entre você e o destinatario, garantindo assim a segurança no envio da mensagem.
 
 2º E o campo onde a messagem a ser  _criptografada_ ou _descriptografada_ sera inserida.
 
 3º E onde teremos o resultado que desejamos sejá a mensagem  _criptografada_ ou _descriptografada_.
 
-### Definição do produto
+## 5. Deploy
 
-No README.md, escreva como você definiu seu usuário e qual foi o processo para
-definir o produto final a nível de expriência e interface.
-
-* Quem são os principais usuário do produto?
-* Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
-
-## 5. Realizar o deploy
-
-Pré-requisitos
+**Pré-requisitos**
 Para iniciar, será necessario ter instalado na máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e um editor de texto como o [VSCode](https://code.visualstudio.com/)
 
-Clone o repositório:
+**Clone o repositório:**
 $ git clone <https://github.com/Lu-Pereira/SAP005-cipher>
 
-Acesse a pasta do projeto no terminal:
+**Acesse a pasta do projeto no terminal:**
 $ cd SAP005-cipher
 
-Instale as dependências do projeto:
+**Instale as dependências do projeto:**
 $ npm install
 
-Execute a aplicação:
+**Execute a aplicação:**
 $ npm start
 
-O servidor inciará na porta:5000 - acesse <http://localhost:5000>
+O servidor inciará na **porta:5000**
+acesse <http://localhost:5000>
 
 Os arquivos principais estão na pasta _src_ que contém:
 * `src/index.html`: Onde está a estrutura da aplicação. Este arquivo
