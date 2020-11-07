@@ -16,10 +16,19 @@ body{
    width: 70px;
 }
 
-h1, h2, h3{
+h1{
+    font-family: sans-serif;
+    color: #1f4f9e;;
+    text-align: center;
+}
+
+
+ h2{
 
     font-family: sans-serif;
-    color: #000000;;
+    color: #ffffff;;
+    text-align: center;
+    text-align: center;
 }
 
 /* Naveção*/
@@ -103,6 +112,7 @@ header h1{
 header p{
 
     margin-bottom: 2em;
+    
 }
 
 /*Medidas para demais dispositos */ 
@@ -160,7 +170,11 @@ header p{
     margin-top: 2px;
     color: white;
 }
+.instrucoes{
+    text-align: center;
+   
 
+}
 .criptografar{
 
     background-image: linear-gradient(to right, #3399ff, #2d5aa8);
@@ -284,7 +298,6 @@ h3{
     padding-top: 60px;
 }
 
-
 .card {
     
     box-shadow: 1px 1px 5px #f7f7f7;
@@ -297,7 +310,7 @@ h3{
 .card-top {
 
     text-align: center;
-    height: 7cm;
+    height: 6cm;
 }
 
 .card-grupo{

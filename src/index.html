@@ -11,6 +11,7 @@
 
 <body>
   <nav class="menu-top">
+
     <div>
       <img class="logo" src="img/logo_40px.png" alt="logo" />
     </div>
@@ -22,12 +23,23 @@
         <a href="#login">Login</a>
       </li>
     </ul>
+
   </nav>
 
   <header id="topo">
+
     <h1>Força Aérea Brasileira - Base Aérea </h1>
-    <h2>Área Restrita</h2>
-    <p>Acesso Digital Único da Plataforma </p>
+    <h2>Acesso Digital Único <br />
+      <br /> Caro usuário, para realiar o login é necessário execultar
+      os seguintes comandos:</h2>
+    - GERAR UM CÓDIGO ALEATÓRIO <br />
+    - INCERIR O CÓDIGO NO CAMPO <br />
+    - NO SEGUNDO CAMPO DE ENTRADA COM DADOS DO USUÁRIO <br />
+    - CRIPTOGRAFAR <br />
+    - ESSE SERÁ O SEU NOVO ACESSO ÚNICO <br />
+    - REPITA O PROCESSO PARA O DADO DA SENHA <br />
+    - O USUÁRIO PODERÁ FAZER O LOGIN NORMALME NO CAMPO A DIREITA <br />
+
   </header>
 
   <!--CAMPO DA CIFRA-->
@@ -49,7 +61,6 @@
             <textarea autocomplete="off" placeholder="INSIRA O USUARIO/SENHA:" class="textarea"
               id="mensagemUsuario"></textarea>
           </div>
-
           <div class="input-group">
             <label for="criptografar">SELECIONE A OPÇÃO DESEJADA:</label>
             <div id="btn-option">
@@ -60,24 +71,24 @@
         </form>
 
         <div id="resultadoP" class="display-none">
-
           <h3 id="resultadoFinal">NOVO LOGIN</h3>
         </div>
         <div class="botaoFinal">
           <input type="reset" name="cls" class="cls" id="cls" value="LIMPAR" onclick="LIMPAR()" />
         </div>
+
     </section>
 
     <!--CAMPO FORMULARIO LOGIN-->
 
     <form class="form" action="#">
+
       <div class="card">
         <div class="card-top">
-
           <img class="imglogin" src="img/avatar.png" alt="imagem_do_usuario">
-
         </div>
         <div class="card-grupo">
+          <h2 class="titleLogin"> ENTRAR</h2>
           <label for="usuario">Usuário:</label>
           <input autocomplete="off" id="usuario" type="text" placeholder="Digite seu usuário CODIFICADO" required>
         </div>
@@ -89,6 +100,7 @@
           <button id="botaoEnviar" type="submit">ACESSAR</button>
         </div>
       </div>
+
     </form>
 
   </nav>
@@ -97,11 +109,8 @@
       <h5>Desenvolvido por<a class="creditos3" target="_blank" href="https://github.com/SaraOhara">@SaraOhara</a>Projeto
         @laboratoria
         ♥</h5>
-
-
   </nav>
 
-  </div>
 
   <script src="index.js" type="module"></script>
 
