@@ -12,6 +12,7 @@ cifrar e decifrar determinada mensagem.
 A criptografia transforma o conteúdo dos dados de uma maneira 
 que apenas as partes autorizadas possam compreender. 
 Vamos ver um exemplo de uma técnica bem simples, aplicada sobre a senha password:
+![](https://github.com/SaraOhara/SAP005-cipher/blob/master/src/img/codigo.png)
 
 Você consegue identificar como foi feita a transformação? Nesse caso, 
 simplesmente trocamos cada uma das letras pela letra seguinte. Então a 
@@ -40,9 +41,9 @@ a mesma.
 Precisaríamos primeiro criptografar-lha, e depois comparar as duas senhas em texto limpo.
 
 Então teríamos o seguinte fluxo:
-    • Receber o login e a senha do usuário;
-    • Buscar a senha criptografada do login fornecido;
-    • Descriptografar esse login e senha com uma chave e comparar com a senha fornecida 
+   * Receber o login e a senha do usuário;
+   * Buscar a senha criptografada do login fornecido;
+   * Descriptografar esse login e senha com uma chave e comparar com a senha fornecida 
     (essa função será dada no campo a direita juntamente com o banco de dados).
     
 Essa técnica que podemos utilizar para atrapalhar mais ainda o atacante do nosso banco de dados. 
@@ -121,7 +122,7 @@ A aplicação apresenta as seguintes características obrigatórias:
           no alfabeto e message é a mensagem (texto) que queremos decifrar. 
     • src/index.js: eventos de DOM sendo executados, chamar cipher.encode() e cipher.decode(). 
     
-# 7 Desenvolvimento
+# 7. Desenvolvimento
 
 Para esse projeto foram usados:
   *  CSS 
