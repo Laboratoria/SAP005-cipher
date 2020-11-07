@@ -1,9 +1,6 @@
-Prefácio 
+# Cifra de César
 
-
-
-
-# 1. Introdução
+#  1. Introdução 
 
 A proposta era desenvolver uma aplicação que utilizasse a cifra de César para 
 cifrar e decifrar determinada mensagem.
@@ -71,6 +68,7 @@ segurança. A interface é auto explicativa, no campo a esquerda basta executar 
 numérico aleatório, com esse número gerado o usuário entrará com esse novo código fornecido juntamente
 com seu usuário e posteriormente a senha, executado o comando de criptografar permitindo seu novo login
 de acesso único somente naquele momento. 
+
 # 4. Processo: Organização, fluxograma e paleta de cores
 
 Foi realizado um fluxograma através do aplicativo Notion para ajudar no entendimento do código e criado
@@ -78,7 +76,7 @@ uma paleta de cores para ter um trabalho visual melhor.
 
 ## 4.1 Para ter acesso ao fluxograma: 
 
-####[Notion] (https://www.notion.so/7cf150e68dad4cc8bff5710aa6da7953?v=dc466134fde84a8ba854c21fbeb3cc7c)
+#### [Notion](https://www.notion.so/7cf150e68dad4cc8bff5710aa6da7953?v=dc466134fde84a8ba854c21fbeb3cc7c)
 
 
 ## 4.2 Paleta de cores
@@ -126,10 +124,10 @@ A aplicação apresenta as seguintes características obrigatórias:
 # 7 Desenvolvimento
 
 Para esse projeto foram usados:
-    • CSS 
-    • HTML 
-    • Vanilla JavaScript
-    • Visual Studio Code com extenção Node-js
+  *  CSS 
+  *  HTML 
+  *  Vanilla JavaScript
+  *  Visual Studio Code com extenção Node-js
     
-Desenvolvido por [Sara Viana](https://github.com/SaraOhara) através do Projeto da [@Laboratoria](https://github.com/Laboratoria)
+Desenvolvido por [Sara Viana](https://github.com/SaraOhara) através do Projeto da [@Laboratoria](https://github.com/Laboratoria) :yellow_heart:
 
