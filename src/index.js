@@ -1,33 +1,38 @@
 import cipher from './cipher.js';
 
-let mensagemUsuario = document.querySelector("#mensagemUsuario")
+let message = document.querySelector("#mensagemUsuario")
 let offset = document.querySelector("#offset")
 let criptografar = document.querySelector("#criptografar")
 let descriptografar = document.querySelector("#descriptografar")
 let resultadoP = document.querySelector("#resultadoP")
 let resultadoFinal = document.querySelector("#resultadoFinal")
 let btn_sorteio = document.querySelector("#btnSorteio");
+let cls = document.querySelector("#cls");
+let botaocopiar = document.querySelector("#copiar");
 
-const showErrorEncode = () => {
-    if (mensagemUsuario.value == "" || offset.value == "") {
+const codif = () => {
+    if (message.value == "" || offset.value == "") {
         alert("CARO USUÁRIO, PREENCHA OS CAMPOS REQUERIDOS")
     } else {
-        resultadoFinal.innerHTML = cipher.encode(offset.value, mensagemUsuario.value)
+        resultadoFinal.innerHTML = cipher.encode(offset.value, message.value)
         resultadoP.style.display = "block"
     }
 }
 
-criptografar.addEventListener('click', showErrorEncode)
+criptografar.addEventListener('click', codif)
 
-const showErrorDecode = () => {
-    if (mensagemUsuario.value == "" || offset.value == "") {
+const descif = () => {
+    if (message.value == "" || offset.value == "") {
         alert("CARO USUÁRIO, PREENCHA OS CAMPOS REQUERIDOS")
     } else {
-        resultadoFinal.innerHTML = cipher.decode(offset.value, mensagemUsuario.value)
+        resultadoFinal.innerHTML = cipher.decode(offset.value, message.value)
         resultadoP.style.display = "block"
     }
 }
 
-descriptografar.addEventListener('click', showErrorDecode)
+descriptografar.addEventListener('click', descif)
 
-btn_sorteio.addEventListener('click', cipher.sorteio);
+btn_sorteio.addEventListener('click', cipher.sorteio)
+
+cls.addEventListener('click', cipher.clear)
+
