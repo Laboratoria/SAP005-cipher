@@ -1,5 +1,5 @@
 import cipher from './cipher.js';
-console.log(cipher);
+
 
 // Manipulação dos botões de opções do menu
 
@@ -94,7 +94,7 @@ dica.addEventListener("click", help)
 function help(event){
   event.preventDefault()
 
-  let helpOption = document.getElementById("dica").innerHTML = "J = A"
+  document.getElementById("dica").innerHTML = "J = A"
 
 }
 
