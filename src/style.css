@@ -1,0 +1,386 @@
+/* CORPO */
+body{
+    
+    font-family: sans-serif;
+    color:#000000;
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+
+   padding: 9px;
+   max-width: 200px;
+   max-height: 150px;
+   width: 70px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #1f4f9e;;
+    text-align: center;
+}
+
+
+ h2{
+
+    font-family: sans-serif;
+    color: #ffffff;;
+    text-align: center;
+    text-align: center;
+}
+
+/* Naveção*/
+.forms{
+
+    background-color: #e2dede; /* parte inferior*/
+}
+
+.menu-top{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 9px 0 ;
+    text-align: center;
+}
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f4f9e;
+}
+
+nav > a {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+nav ul{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%; 
+}
+
+nav ul li{
+
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a{
+
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Cabeçalho*/
+header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+}
+
+header h1{
+
+    color: #ffffff;
+}
+
+header p{
+
+    margin-bottom: 2em;
+    
+}
+
+/*Medidas para demais dispositos */ 
+@media screen and (min-width: 768px) { 
+    nav {
+
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+
+        flex-direction: row;
+        width: 70%;
+    }
+    header {
+
+        height: 600px;
+        height: 60vh;
+        justify-content: center; 
+    }
+}
+
+#fotos img{
+
+    width: 33.3333333%;
+}
+
+/*CIFRA*/
+.container {
+
+    width: 410px;
+    margin: left;
+    padding-left: 15px;/* Para colocar a direita utilizar padding-right*/
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.form-initial{
+
+    box-shadow: 1px 1px 5px #f7f7f7;
+    background-color: #f7f7f7;
+    padding: 60px;
+    border-radius: 20px; 
+}
+
+.buttonSorteio{
+
+    background-image: linear-gradient(to right, #3399ff, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 8px;
+    border: 0px;
+    outline: 0;
+    margin-top: 2px;
+    color: white;
+}
+.instrucoes{
+    text-align: center;
+   
+
+}
+.criptografar{
+
+    background-image: linear-gradient(to right, #3399ff, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 13px;
+    border: 0px;
+    outline: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.criptografar:hover{ 
+
+    background-image: linear-gradient(to right, #2d5aa8, #3399ff);
+}
+
+.descriptografar{
+
+    background-image: linear-gradient(to right, #3399ff, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 13px;
+    border: 0px;
+    outline: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.descriptografar:hover{ 
+
+    background-image: linear-gradient(to right, #2d5aa8, #3399ff);
+}
+
+.input-group >input{
+
+    border-radius:  5px;
+    outline: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding: 5px;
+}
+
+.textarea{
+
+    border-radius:  5px;
+    outline: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding: 5px;
+}
+
+.input-group > label{
+
+    width: 100%;
+    color:  #797979;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+h3{
+
+    border-radius:  5px;
+    outline: 1;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding: 5px;
+    border: #2d5aa8;
+    color: #2d5aa8;
+    text-align: center;
+    border: 2px solid #e2dede; 
+    border-bottom: none; 
+    margin-left: 2px;
+    height: 15px;
+    width: 100%;
+}
+
+.buttonSorteio{
+
+    background-image: linear-gradient(to right, #3399ff, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 8px;
+    border: 0px;
+    outline: 0;
+    margin-top: 2px;
+    color: white;
+}
+
+.cls{
+
+    background-image: linear-gradient(to right, #3399ff, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 8px;
+    border: 0px;
+    outline: 0;
+    margin-top: 2px;
+    color: white;
+}
+
+/* Formulario de login*/
+.form {
+
+   width: 410px;
+   margin: left;
+   padding-left: 15px;/* Para colocar a direita utilizar padding-right*/
+   padding-top: 60px;
+   padding-bottom: 50px;
+}
+
+.imglogin{
+
+    border-radius: 150px;
+    width: 200px;
+    box-shadow:  #000000;
+    padding-top: 60px;
+}
+
+.card {
+    
+    box-shadow: 1px 1px 5px #f7f7f7;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 20px; 
+    height: 16.3cm;
+}
+
+.card-top {
+
+    text-align: center;
+    height: 6cm;
+}
+
+.card-grupo{
+
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.card-grupo > label{
+
+    width: 100%;
+    color: #797979;
+    display: block;
+}
+
+.card-grupo >input{
+
+    border-radius:  5px;
+    outline: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding: 5px;
+}
+
+.card-grupo> button{
+
+    background-image: linear-gradient(to right, #3399ff, #2d5aa8);
+    width: 100%;
+    border-radius: 30px;
+    padding: 13px;
+    border: 0px;
+    outline: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn button:hover{ 
+
+    background-image: linear-gradient(to right, #2d5aa8, #3399ff);
+}
+
+.titleLogin{
+
+    color: #2d5aa8;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.creditos1{
+
+    background-color: #e2dede;
+    padding: 3px;
+}
+
+.creditos2{
+
+    color: #000000;
+    padding: 0 3px;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.creditos3{
+
+    color: #ff33e4;
+    padding: 0 3px;
+    width: 100%;
+    text-decoration: none;
+}

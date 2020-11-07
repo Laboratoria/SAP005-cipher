@@ -1,14 +1,119 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Força Aérea - Área Restrita Login</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="normalize.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <nav class="menu-top">
+
+    <div>
+      <img class="logo" src="img/logo_40px.png" alt="logo" />
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <ul>
+      <li>
+        <a href="#topo">Sobre </a>
+      </li>
+      <li>
+        <a href="#login">Login</a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <header id="topo">
+
+    <h1>Força Aérea Brasileira - Base Aérea </h1>
+    <h2>Acesso Digital Único <br />
+      <br /> Caro usuário, para realizar o login é necessário executar os
+      seguintes comandos:</h2>
+    - GERAR UM CÓDIGO ALEATÓRIO <br />
+    - INSERIR O CÓDIGO NO CAMPO <br />
+    - NO SEGUNDO CAMPO DE ENTRADA COM DADOS DO USUÁRIO <br />
+    - CRIPTOGRAFAR <br />
+    - ESSE SERÁ O SEU NOVO ACESSO ÚNICO <br />
+    - REPITA O PROCESSO PARA O DADO DA SENHA <br />
+    - O USUÁRIO PODERÁ FAZER O LOGIN NORMALMENTE NO CAMPO A DIREITA <br />
+
+  </header>
+
+  <!--CAMPO DA CIFRA-->
+  <nav class="forms" id="login">
+
+    <section class="container display-none">
+      <div class="form-initial">
+        <form>
+          <div class="input-group">
+            <h2 class="titleLogin"> PAINEL DE CONTROLE</h2>
+            <button type="button" class="buttonSorteio" id="btnSorteio">Código</button>
+            <h3 id="resultado"></h3>
+
+            <div class="input-group">
+              <label for="offset">INSIRA O CÓDIGO A CIMA: </label>
+              <input autocomplete="off" type="number" id="offset" placeholder="Código n°">
+            </div>
+            <label for="mensagemUsuario"></label>
+            <textarea autocomplete="off" placeholder="INSIRA O USUARIO/SENHA:" class="textarea"
+              id="mensagemUsuario"></textarea>
+          </div>
+          <div class="input-group">
+            <label for="criptografar">SELECIONE A OPÇÃO DESEJADA:</label>
+            <div id="btn-option">
+              <input type="button" id="criptografar" class="criptografar" value="CRIPTOGRAFAR">
+              <input type="button" id="descriptografar" class="descriptografar" value="DESCRIPTOGRAFAR">
+            </div>
+          </div>
+        </form>
+
+        <div id="resultadoP" class="display-none">
+          <h3 id="resultadoFinal">NOVO LOGIN</h3>
+        </div>
+        <div class="botaoFinal">
+          <input type="reset" name="cls" class="cls" id="cls" value="LIMPAR" onclick="LIMPAR()" />
+        </div>
+
+    </section>
+
+    <!--CAMPO FORMULARIO LOGIN-->
+
+    <form class="form" action="#">
+
+      <div class="card">
+        <div class="card-top">
+          <img class="imglogin" src="img/avatar.png" alt="imagem_do_usuario">
+        </div>
+        <div class="card-grupo">
+          <h2 class="titleLogin"> ENTRAR</h2>
+          <label for="usuario">Usuário:</label>
+          <input autocomplete="off" id="usuario" type="text" placeholder="Digite seu usuário CODIFICADO" required>
+        </div>
+        <div class="card-grupo">
+          <label for="senha">Senha:</label>
+          <input autocomplete="off" id="senha" type="password" placeholder="Digite sua senha CODIFICADO" required>
+        </div>
+        <div class="card-grupo btn">
+          <button id="botaoEnviar" type="submit">ACESSAR</button>
+        </div>
+      </div>
+
+    </form>
+
+  </nav>
+  <nav class="creditos1">
+    <div class="creditos2">
+      <h5>Desenvolvido por<a class="creditos3" target="_blank" href="https://github.com/SaraOhara">@SaraOhara</a>Projeto
+        @laboratoria
+        ♥</h5>
+  </nav>
+
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
 </html>
