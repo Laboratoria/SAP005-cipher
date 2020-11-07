@@ -87,19 +87,25 @@ uma paleta de cores para ter um trabalho visual melhor.
 # 5. Instalação e execução
 
     • Use o Fork para criar um repositório em seu GitHub;
-    • Clone o repositório em sua máquina, no terminal digite "git clone + link copiado" e dê enter;
-    • Verifique se tem o nodejs instalado, se não tiver faça a instalação;  
-    • Pelo terminal acesse a pasta do seu projeto, e está pronto para ser utilizado ou alterado.
+    • Clone o repositório em sua máquina, no terminal digite 
+    "git clone + link copiado" e dê enter;
+    • Verifique se tem o nodejs instalado, se não tiver faça 
+    a instalação;  
+    • Pelo terminal acesse a pasta do seu projeto, e está pronto 
+    para ser utilizado ou alterado.
       
 ## 5.1 Comandos npm
 
 Os comandos necessários para executar o programa em sua máquina são:
 
-    • npm install: este irá auxiliar na instalação do projeto, no gerenciamento da versões e no 
+    • npm install: este irá auxiliar na instalação do projeto, 
+    no gerenciamento da versões e no 
     gerenciamento de dependências necessárias para executa-lo.
-    • npm run test: procura pelo script test dentro do package.json, executar o que estiver dentro dele 
+    • npm run test: procura pelo script test dentro do package.json, 
+    executar o que estiver dentro dele 
     irá testar seu código e verificar se está cumprindo com o desejado; 
-    • npm run start: executa os scripts que estiverem localizados no arquivo package.json, no caso o 
+    • npm run start: executa os scripts que estiverem localizados no 
+    arquivo package.json, no caso o 
     "start"
     fornecerá um link de acesso e o projeto poderá ser aberto no browser;
     • npm run deploy: publica uma versão do seu projeto no GitHub Pages.
@@ -111,14 +117,18 @@ Os comandos necessários para executar o programa em sua máquina são:
 
 A aplicação apresenta as seguintes características obrigatórias:
 
-    • REAME.md: explição de como fazer deploy, instalar e executar a aplicação, assim como uma introdução
-    a aplicação, suas funcionalidades e as decisões que foram tomadas. 
-    • src/index.html: ponto de entrada da aplicação. Este arquivo contém a marcação HTML e chama o CSS e 
-    JavaScript necessários. 
-    • src/cipher.js: objeto cipher implementado, o qual já está Este objeto (cipher) contém dois métodos: 
-        ◦ cipher.encode(offset, message): offset é o número de posições que queremos mover para a direita 
-          no alfabeto e message é a mensagem (texto) que queremos cifrar. 
-        ◦ cipher.decode(offset, message): offset é o número de posições que queremos mover para a esquerda 
+    • REAME.md: explição de como fazer deploy, instalar e executar a aplicação, 
+    assim como uma introdução a aplicação, suas funcionalidades e as decisões 
+    que foram tomadas. 
+    • src/index.html: ponto de entrada da aplicação. Este arquivo contém a 
+    marcação HTML e chama o CSS e JavaScript necessários. 
+    • src/cipher.js: objeto cipher implementado, o qual já está Este objeto 
+    (cipher) contém dois métodos: 
+        ◦ cipher.encode(offset, message): offset é o número de posições que 
+          queremos mover para a direita no alfabeto e message é a mensagem 
+          (texto) que queremos cifrar. 
+        ◦ cipher.decode(offset, message): offset é o número de posições que 
+          queremos mover para a esquerda 
           no alfabeto e message é a mensagem (texto) que queremos decifrar. 
     • src/index.js: eventos de DOM sendo executados, chamar cipher.encode() e cipher.decode(). 
     
