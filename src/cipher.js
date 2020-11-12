@@ -3,7 +3,7 @@ const cipher = {
 
   encode: (offset, mensagem) => {
     let cifrar = '';
-    if (mensagem == null || mensagem == "" || offset == null || offset == "") { // Criação de um TypeError para a condição de null
+    if (mensagem == null || mensagem == "" || offset == null || offset == "") { // Criação de um TypeError para a condição de null ou vazio apresentara a messagem.
       throw new TypeError("E necessario inserir chave e texto, por favor revise os campos", "cipher.js");
     } else {
       for (let i = 0; i < mensagem.length; i++) {
