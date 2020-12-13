@@ -77,13 +77,13 @@ function capturarCipher(event){
   event.preventDefault()
 
     let stringCipher = document.getElementById("phraseCipher").value
-
+    let stringCode = stringCipher.toUpperCase()
     // select do Offset
     let obterOffsetCipher = document.getElementById("offsetCipher").value
     let offsetCipher = Number(obterOffsetCipher)
 
    //imprimir na tela
-    document.getElementById("valorFinal").innerHTML = cipher.decode(offsetCipher, stringCipher)
+    document.getElementById("valorFinal").innerHTML = cipher.decode(offsetCipher, stringCode)
 }   
 
 //botão de dica Opção 4
