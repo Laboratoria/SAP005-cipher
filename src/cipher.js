@@ -7,32 +7,26 @@ const cipher = {
 	//	a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   v   w   x   y   z
 	//	97  98  99  100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122
 
-	"input": document.getElementById(input).innerText,
-	"offset": Number(document.getElementById(offset).innerText),
-	"output": document.getElementById(output).innerText,
+	"input": document.getElementById("input").innerText,
+	"offset": Number(document.getElementById("offset").innerText),
+	"output": document.getElementById("output").innerText,
 
-	formula(v) {
+	formula(match) {
+		let outputCodePoint = match.codePointAt(0) + cipher.offset;
 		if (
-			(65 >= v.codePointAt(0) <= 90) ||
-			(97 >= v.codePointAt(0) <= 122)) {
-			let outputCodePoint = v.codePointAt(0) + cipher.offset;
-			if (
-				(65 >= v.codePointAt(0) <= 90 && outputCodePoint < 65) ||
-				(97 >= v.codePointAt(0) <= 122 && outputCodePoint < 96)) {
-				outputCodePoint + 26
-			} else if (
-				(65 >= v.codePointAt(0) <= 90 && outputCodePoint > 90) ||
-				(97 >= v.codePointAt(0) <= 122 && outputCodePoint > 122)) {
-				outputCodePoint - 26
-			}
-			return String.fromCodePoint(outputCodePoint)
-		} else {
-			return v
+			(/[A-Z]/.test(match) && outputCodePoint < 65) ||
+			(/[a-z]/.test(match) && outputCodePoint < 97)) {
+			outputCodePoint + 26
+		} else if (
+			(/[A-Z]/.test(match) && outputCodePoint > 90) ||
+			(/[a-z]/.test(match) && outputCodePoint > 122)) {
+			outputCodePoint - 26
 		}
+		return String.fromCodePoint(outputCodePoint)
 	},
 
 	code() {
-		cipher.output = Array.from(cipher.input, cipher.formula).join("")
+		cipher.output = cipher.input.replaceAll(/[A-Z]/gi, cipher.formula)
 	},
 };
 
