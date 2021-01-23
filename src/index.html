@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+	<head>
+		<meta
+		charset="utf-8">
+
+		<title>Spoilertagger</title>
+
+		<link
+		rel="stylesheet"
+		href="./style.css">
+		<script
+		type="module"
+		src="./index.js"></script>
+	</head>
+	
+	<body><main>
+
+			<form
+			action="./index.js"
+			method="post">
+
+			<h1
+			class="title">Spoilertagger</h1>
+
+			<label
+			class="input">Text to spoilertag
+				<textarea
+				cols="60"
+				id="input"
+				maxlength="600"
+				minlength="1"
+				name="input"
+				placeholder="Lorem ipsum dolor sit amet..."
+				required
+				rows="10"></textarea>
+			</label>
+
+			<label
+			class="offset">Offset
+				<input
+				id="offset"
+				max="25"
+				min="-25"
+				name="offset"
+				required
+				type="number"
+				value="13">
+			</label>
+
+			<button
+			class="submit"
+			id="submit"
+			name="submit">Submit</button>
+
+			<label
+			class="output">Spoilertagged text
+				<textarea
+				cols="60"
+				id="output"
+				name="output"
+				readonly
+				rows="10"
+				placeholder="Yberz vcfhz qbybe fvg nzrg..."></textarea>
+			</label>
+
+			</form>
+	</main></body>
 </html>
