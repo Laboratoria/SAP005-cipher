@@ -1,0 +1,42 @@
+form {
+	display: grid;
+	grid-gap: 10px;
+	grid:
+		"title	title"
+		"input	input"
+		"offset	submit"
+		"output	output"
+		/ 1fr 1fr;
+	margin: 0 auto;
+	place-items: center;
+	width: min-content;
+}
+
+textarea {
+	resize: none;
+}
+
+input {
+	width: 40px;
+}
+
+.title {
+	grid-area: title;
+}
+
+.input {
+	grid-area: input;
+}
+
+.offset {
+	grid-area: offset;
+}
+
+.submit {
+	align-self: end;
+	grid-area: submit;
+}
+
+.output {
+	grid-area: output;
+}
