@@ -14,57 +14,38 @@
 		src="./index.js"></script>
 	</head>
 	
-	<body><main>
-			<form>
-
+	<body>
 				<h1
-				class="title">Spoilertagger</h1>
+				id="title">Spoilertagger</h1>
 
-				<label
-				class="input"
-				for="input">Text to spoilertag
-					<textarea
-					cols="60"
-					id="input"
-					maxlength="600"
-					minlength="1"
-					name="input"
-					placeholder="Lorem ipsum dolor sit amet..."
-					required
-					rows="10"></textarea>
-				</label>
+				<textarea
+				cols="60"
+				id="input"
+				maxlength="600"
+				minlength="1"
+				placeholder="Lorem ipsum dolor sit amet..."
+				required
+				rows="10"></textarea>
 
-				<label
-				class="offset"
-				for="offset">Offset
+				<section
+				id="offSub">
 					<input
 					id="offset"
 					max="25"
 					min="-25"
-					name="offset"
-					required
 					type="number"
 					value="13">
-				</label>
 
-				<button
-				class="submit"
-				id="submit"
-				name="submit"
-				type="submit">Submit</button>
+					<button
+					id="submit"
+					type="button">Submit</button>
+				</section>
 
-				<label
-				class="output"
-				for="output">Spoilertagged text
-					<textarea
-					cols="60"
-					id="output"
-					name="output"
-					readonly
-					rows="10"
-					placeholder="Yberz vcfhz qbybe fvg nzrg..."></textarea>
-				</label>
-
-			</form>
-	</main></body>
+				<textarea
+				cols="60"
+				id="output"
+				readonly
+				rows="10"
+				placeholder="Yberz vcfhz qbybe fvg nzrg..."></textarea>
+	</body>
 </html>
