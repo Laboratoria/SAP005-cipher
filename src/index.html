@@ -15,54 +15,55 @@
 	</head>
 	
 	<body><main>
+			<form>
 
-			<form
-			action="./index.js"
-			method="post">
+				<h1
+				class="title">Spoilertagger</h1>
 
-			<h1
-			class="title">Spoilertagger</h1>
+				<label
+				class="input"
+				for="input">Text to spoilertag
+					<textarea
+					cols="60"
+					id="input"
+					maxlength="600"
+					minlength="1"
+					name="input"
+					placeholder="Lorem ipsum dolor sit amet..."
+					required
+					rows="10"></textarea>
+				</label>
 
-			<label
-			class="input">Text to spoilertag
-				<textarea
-				cols="60"
-				id="input"
-				maxlength="600"
-				minlength="1"
-				name="input"
-				placeholder="Lorem ipsum dolor sit amet..."
-				required
-				rows="10"></textarea>
-			</label>
+				<label
+				class="offset"
+				for="offset">Offset
+					<input
+					id="offset"
+					max="25"
+					min="-25"
+					name="offset"
+					required
+					type="number"
+					value="13">
+				</label>
 
-			<label
-			class="offset">Offset
-				<input
-				id="offset"
-				max="25"
-				min="-25"
-				name="offset"
-				required
-				type="number"
-				value="13">
-			</label>
+				<button
+				class="submit"
+				id="submit"
+				name="submit"
+				type="submit">Submit</button>
 
-			<button
-			class="submit"
-			id="submit"
-			name="submit">Submit</button>
-
-			<label
-			class="output">Spoilertagged text
-				<textarea
-				cols="60"
-				id="output"
-				name="output"
-				readonly
-				rows="10"
-				placeholder="Yberz vcfhz qbybe fvg nzrg..."></textarea>
-			</label>
+				<label
+				class="output"
+				for="output">Spoilertagged text
+					<textarea
+					cols="60"
+					id="output"
+					name="output"
+					readonly
+					rows="10"
+					placeholder="Yberz vcfhz qbybe fvg nzrg..."></textarea>
+				</label>
 
 			</form>
 	</main></body>
