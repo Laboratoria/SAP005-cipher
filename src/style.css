@@ -1,42 +1,46 @@
-form {
+:root {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
 	display: grid;
-	grid-gap: 10px;
+	gap: 10px;
 	grid:
-		"title	title"
-		"input	input"
-		"offset	submit"
-		"output	output"
-		/ 1fr 1fr;
-	margin: 0 auto;
+		"title"
+		"input"
+		"offSub"
+		"output";
+	justify-content: center;
 	place-items: center;
-	width: min-content;
 }
 
 textarea {
 	resize: none;
 }
 
-input {
-	width: 40px;
-}
-
-.title {
+#title {
 	grid-area: title;
 }
 
-.input {
+#input {
 	grid-area: input;
 }
 
-.offset {
-	grid-area: offset;
+#offSub {
+	align-items: center;
+	display: flex;
+	grid-area: offSub;
+	justify-content: space-evenly;
+	width: 50%;
 }
 
-.submit {
-	align-self: end;
-	grid-area: submit;
+#offset {
+	width: 40px;
 }
 
-.output {
+#submit {
+}
+
+#output {
 	grid-area: output;
 }
