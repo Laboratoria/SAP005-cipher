@@ -1,0 +1,46 @@
+:root {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+	display: grid;
+	gap: 10px;
+	grid:
+		"title"
+		"input"
+		"offSub"
+		"output";
+	justify-content: center;
+	place-items: center;
+}
+
+textarea {
+	resize: none;
+}
+
+#title {
+	grid-area: title;
+}
+
+#input {
+	grid-area: input;
+}
+
+#offSub {
+	align-items: center;
+	display: flex;
+	grid-area: offSub;
+	justify-content: space-evenly;
+	width: 50%;
+}
+
+#offset {
+	width: 40px;
+}
+
+#submit {
+}
+
+#output {
+	grid-area: output;
+}
