@@ -15,37 +15,34 @@
 	</head>
 	
 	<body>
-				<h1
-				id="title">Spoilertagger</h1>
+		<h1
+		id="title">Spoilertagger</h1>
 
-				<textarea
-				cols="60"
-				id="input"
-				maxlength="600"
-				minlength="1"
-				placeholder="Lorem ipsum dolor sit amet..."
-				required
-				rows="10"></textarea>
+		<textarea
+		cols="60"
+		id="dcodedTxt"
+		rows="10"></textarea>
 
-				<section
-				id="offSub">
-					<input
-					id="offset"
-					max="25"
-					min="-25"
-					type="number"
-					value="13">
+		<section
+		id="inputAndButtons">
+			<button
+			id="encodeBtn"
+			type="button">Encode</button>
 
-					<button
-					id="submit"
-					type="button">Submit</button>
-				</section>
+			<input
+			id="offsetNum"
+			min="1"
+			type="number"
+			value="13">
 
-				<textarea
-				cols="60"
-				id="output"
-				readonly
-				rows="10"
-				placeholder="Yberz vcfhz qbybe fvg nzrg..."></textarea>
+			<button
+			id="decodeBtn"
+			type="button">Decode</button>
+		</section>
+
+		<textarea
+		cols="60"
+		id="ncodedTxt"
+		rows="10"></textarea>
 	</body>
 </html>

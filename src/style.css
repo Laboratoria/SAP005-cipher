@@ -4,13 +4,14 @@
 
 body {
 	display: grid;
-	gap: 10px;
+	gap: 30px;
 	grid:
 		"title"
-		"input"
-		"offSub"
-		"output";
+		"decoded-text"
+		"input-buttons"
+		"encoded-text";
 	justify-content: center;
+	margin: 25px;
 	place-items: center;
 }
 
@@ -20,27 +21,33 @@ textarea {
 
 #title {
 	grid-area: title;
+	margin: 0;
 }
 
-#input {
-	grid-area: input;
+#dcodedTxt {
+	grid-area: decoded-text;
 }
 
-#offSub {
+#inputAndButtons {
 	align-items: center;
 	display: flex;
-	grid-area: offSub;
+	grid-area: input-buttons;
 	justify-content: space-evenly;
-	width: 50%;
+	width: 100%;
 }
 
-#offset {
-	width: 40px;
+#offsetNum {
+	width: 42px;
 }
 
-#submit {
+#encodeBtn {
+	width: 64px;
 }
 
-#output {
-	grid-area: output;
+#decodeBtn {
+	width: 64px;
+}
+
+#ncodedTxt {
+	grid-area: encoded-text;
 }
