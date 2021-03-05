@@ -1,68 +1,59 @@
-h1{
+h1 {
     text-align: center;
     font-size: 300%;
-}
-
-
-div{
+  }
+  
+  div {
     width: 50%;
-    height: 50%; 
+    height: 50%;
     border: 0.2px solid black;
-    margin:auto;
+    margin: auto;
     /* centralizar a div */
     background-color: rgb(50, 11, 87);
-        color: white;
-        text-align: center;
-        padding: 50px;
-        font-size: 100%;
-
-} 
-label{
+    color: white;
     text-align: center;
-    display:block;
+    padding: 50px;
+    font-size: 100%;
+  }
+  label {
+    text-align: center;
+    display: block;
     font-size: 150%;
-}
-
-button{
+  }
+  
+  button {
     height: 80px;
     width: 80px;
-    display: inline-block; 
+    display: inline-block;
     background-color: black;
     border: black;
     color: white;
-    font-size: 100%; 
+    font-size: 100%;
     border-radius: 10px;
-    
-   
-}
-
-    input{
+  }
+  
+  input {
     height: 100%;
     width: 60%;
     border-radius: 100px;
-
-} 
-
-    .div-id{
+  }
+  
+  .div-id {
     background-color: black;
-    color: white; 
-    width: 400px; 
-    height: 150px; 
-    left: 50%; 
-    margin: -130px 0 0 -210px; 
-    padding:10px;
-    position: absolute; 
-    top: 50%; 
+    color: white;
+    width: 400px;
+    height: 150px;
+    left: 50%;
+    margin: -130px 0 0 -210px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
     max-width: 500px;
     width: 70%;
-    padding:50px;
+    padding: 50px;
     position: absolute;
-    left:50%;
+    left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);  
-}
-
-
- 
-      
-
+    transform: translate(-50%, -50%);
+  }
+  

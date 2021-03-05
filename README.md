@@ -34,6 +34,9 @@ A interface deve permitir ao usuário:
 * Inserir uma mensagem (texto) para ser decifrada.
 * Ver o resultado da mensagem decifrada.
 
+<img src="./src/images/calculadora-cifra-cesar.png"/> 
+
+
 # 3.Aplicação(como funciona)
 
 * Como você acredita que o produto está resolvendo os problemas do usuário?

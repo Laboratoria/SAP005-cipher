@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criptrogrando Palavras com a Cifra de César</title>
+  </head>
 
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="style.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Criptrogrando Palavras com a Cifra de César</title>
-</head>
+  <body>
+    <div id="root">
+      <h1>Calculadora Cifra de César</h1>
 
-<body>
+      <form>
+        <!-- usuário digita a palvra -->
+        <label for="mensagem">Mensagem</label>
+        <input type="text" name="Mensagem" id="mensagem" />
 
-<div id="root">
-<h1>Calculadora Cifra de César</h1>
+        <!-- usuario escolhe o número de deslocamento -->
+        <label for="deslocamento">Deslocamento</label>
+        <p><input type="number" id="deslocamento" /></p>
 
-<form >
-<!-- usuário digita a palvra -->
-<label for="mensagem">Mensagem</label>
-    <input type="text" name="Mensagem" id="mensagem">
+        <!-- botão cifrar palavra -->
 
-<!-- usuario escolhe o número de deslocamento -->
-<label for="deslocamento">Deslocamento</label>
-<p><input type="number" id="deslocamento"></p>
+        <button id="cifrar">Cifrar</button>
 
-<!-- botão cifrar palavra -->
+        <!-- botão decifrar palavra -->
+        <button id="decifrar">Decifrar</button>
 
-<button id="cifrar">Cifrar</button>
+        <!-- recebe a palavra e cifra -->
+        <label for="mensagem-cifrada">Mensagem Cifrada</label>
+        <input type="text" name="Mensagem Cifrada" id="mensagemCifrada" />
 
-<!-- botão decifrar palavra -->
-<button id="decifrar">Decifrar</button>
-
-<!-- recebe a palavra e cifra -->
-<label for="mensagem-cifrada">Mensagem Cifrada</label>
-    <input type="text" name="Mensagem Cifrada" id="mensagemCifrada">
-
-<!-- recebe a palavra e decifra -->
-<label for="mensagem-decifrada">Mensagem Decifrada</label>
-    <input type="text" name="Mensagem Decifrada" id="mensagemDecifrada">
-</form>
-</div>
-<script src="index.js" type="module"></script>
-</body>
-
+        <!-- recebe a palavra e decifra -->
+        <label for="mensagem-decifrada">Mensagem Decifrada</label>
+        <input type="text" name="Mensagem Decifrada" id="mensagemDecifrada" />
+      </form>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
