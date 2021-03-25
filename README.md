@@ -1,15 +1,16 @@
 ![Badge](https://img.shields.io/badge/npm-6.14.5-%237159c1?style=for-the-badge&logo=ghost)
 
+
 # KG - LAB005
 
 ![home](https://user-images.githubusercontent.com/37550557/98432802-b183e780-20a0-11eb-82ed-0cb77b6249a4.JPG)
 
 ## Índice
 
-* [1. Introdução](#1-Introdução)
+* [1. Introdução](#1-introdução)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Utilização](#4-Utilização)
+* [3. Objetivos do projeto](#3-objetivos-do-projeto)
+* [4. Utilização](#4-utilização)
 * [5. Deploy](#5-Deploy)
 
 ***
@@ -37,6 +38,8 @@ O objetivo do projeto e realizar a _criptografia_ e a _descriptografia_ de mensa
 
 A utilização da aplicação e fácil e prática, temos 3 campos onde:
 
+
+
 1º E onde iremos criar ou inserir uma chave para a  _criptografia_ e a _descriptografia_ que sera compartilhada entre você e o destinatario, garantindo assim a segurança no envio da mensagem.
 
 2º E o campo onde a messagem a ser  _criptografada_ ou _descriptografada_ sera inserida.
@@ -50,7 +53,8 @@ Para iniciar, será necessario ter instalado na máquina as seguintes ferramenta
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e um editor de texto como o [VSCode](https://code.visualstudio.com/)
 
 **Clone o repositório:**
-$ git clone <https://github.com/Lu-Pereira/SAP005-cipher>
+$ git clone <https://github.com/  luciana-p
+ereira/SAP005-cipher>
 
 **Acesse a pasta do projeto no terminal:**
 $ cd SAP005-cipher
