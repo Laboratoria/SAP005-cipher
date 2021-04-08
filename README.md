@@ -51,8 +51,7 @@ Para iniciar, será necessario ter instalado na máquina as seguintes ferramenta
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e um editor de texto como o [VSCode](https://code.visualstudio.com/)
 
 **Clone o repositório:**
-$ git clone <https://github.com/  luciana-p
-ereira/SAP005-cipher>
+$ git clone <https://github.com/  luciana-pereira/SAP005-cipher>
 
 **Acesse a pasta do projeto no terminal:**
 $ cd SAP005-cipher
