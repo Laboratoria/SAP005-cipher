@@ -14,6 +14,8 @@
 * [3. Objetivos do projeto](#3-objetivos-do-projeto)
 * [4. Utilização](#4-utilização)
 * [5. Deploy](#5-Deploy)
+* [6. Tecnologias utilizadas](#6-tecnologias-utilizadas)
+* [7. Desenvolvedora](#7-Desenvolvedora)
 
 ***
 
@@ -77,3 +79,15 @@ Os arquivos principais estão na pasta _src_ que contém:
       que queremos decifrar.
 * `src/index.js`: E onde colocamos os eventos de DOM, como o `addEventListener` para chamar o
   `cipher.encode()` e `cipher.decode()`.
+  
+  
+## 6. Tecnologias utilizadas
+
+HTML / CSS / JavaScript / Planejamento no Trello.
+
+## 7. Desenvolvedora
+
+O **_KG - LAB005_** foi desenvolvido por [Luciana Pereira](https://github.com/luciana-pereira/) aluna da turma **SAP-005 da <Laboratória/> 💛**, é o primeiro projeto do bootcamp.
+
+
+Agradeço por esse grande desafio! 🚀
