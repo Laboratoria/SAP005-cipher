@@ -10,57 +10,54 @@
 </head>
 
 <body>
-  <div class="introducao">
+  <header class="introduction">
     <div class="logo">
       <img src="https://media.giphy.com/media/rbph3qmVr9WX6/giphy.gif" alt="">
     </div>
-    <div class="titulo">
+    <div class="title">
       <h2>KG - LABOO5</h2>
-      <div>
-        <p>
-          Hey... </p>
-          <p>Está preparado para mais uma missão? </p>
-          <p>Pois bem... seu trabalho e descrever e passar as
-          seguintes cordenadas ao seu companheiro, para que o mesmo cumpra a proxima fase da missão. Você utilizara este
-          sistema para criptografar suas mensagens e
-          descriptografar utilizando uma chave, que somente devera ser compartilhada entre vocês para transmitir as
-          mensagens com a <b>MAXIMA SEGURANÇA.</b>
-        </p>
-      </div>
+      <p>
+        Hey... </p>
+      <p>Está preparado para mais uma missão? </p>
+      <p>Pois bem... seu trabalho e descrever e passar as
+        seguintes cordenadas ao seu companheiro, para que o mesmo cumpra a proxima fase da missão. Você utilizara este
+        sistema para criptografar suas mensagens e
+        descriptografar utilizando uma chave, que somente devera ser compartilhada entre vocês para transmitir as
+        mensagens com a <b>MAXIMA SEGURANÇA.</b>
+      </p>
     </div>
-  </div>
+  </header>
 
-  <div class="utilizacao">
-    <h2 id="#utilizacao">Como utilizar?</h2>
+  <aside class="use">
+    <h2 id="#use">Como utilizar? 🤔 </h2>
     <p>
       <b>1)</b> Primeiro informe uma chave, onde a mesma so podera ser compartilhada por você e seu destinatario, para
-      critograr e Descriptografar ambos deveram ter a chave.<br><br></p>
+      critograr e Descriptografar ambos deveram ter a chave.<br><br>
+    </p>
     <img src="https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif" alt="Homer digitando a chave">
     <p>
       <b>2)</b>No primeiro escreva a mensagem que deseja <b>CRIPTOGRAFAR</b> ou <b>DESCRIPTOGRAFAR</b> e selecione o
       botão de acordo com sua escolha.<br><br>
       <b>3)</b> Pronto!! Agora e so clicar em copiar e enviar a sua mensagem.
     </p>
-  </div>
+  </aside>
 
-  <div class="msg">
-    <div>
-      <h4>1)Informe ou crie uma nova chave. </h4>
-      <input type="number" placeholder="Informe a chave" id="chave">
-    </div>
-    <div class="msg_texto">
+  <main class="msg">
+    <h4>1)Informe ou crie uma nova chave. </h4>
+    <input type="number" placeholder="Informe a chave 🔑" id="key">
+    <div class="msg_text">
       <h4>2)Coloque o texto aqui</h4>
       <textarea id="msg" cols="120" rows="20"></textarea>
-      <div class="botao">
+      <div class="button">
         <button value="encode" id="encode">Criptografar</button>
         <button value="decode" id="decode">Descriptografar</button>
       </div>
       <h4>3)A Criptografia ou Descriptografia estara aqui </h4>
       <textarea id="encode_decode" cols="120" rows="20"></textarea>
     </div>
-  </div>
+  </main>
 
-  <footer class="footer"><b>Lu Pereira - Copyright © 2020</b></footer>
+  <footer class="footer"><b> Criado com muito ❤️ por Luciana Pereira - Copyright © 2020 </b></footer>
 
   <script src="index.js" type="module"></script>
   <script src="cipher.js" type="module"></script>
