@@ -5,7 +5,7 @@ body {
 }
 
 p {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .logo {
@@ -33,7 +33,7 @@ p {
   margin-bottom: 5%;
 }
 
-.introduction div {
+.introduction header {
   margin-top: 20px;
 }
 
