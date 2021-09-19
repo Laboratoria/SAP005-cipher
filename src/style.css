@@ -35,6 +35,7 @@ p {
 
 .introduction header {
   margin-top: 20px;
+  width: 50%;
 }
 
 .introduction {
@@ -72,6 +73,11 @@ p {
   margin-bottom: 1%;
 }
 
+img.image-homer {
+  width: 50%;
+  height: 50%;
+}
+
 
 /* Campo de Criptografia e Descriptografia */
 .msg {
@@ -87,12 +93,21 @@ p {
   color: rgb(97, 202, 97);
 }
 
+input {
+  width: 50%;
+}
+
 .msg_text textarea,
 input {
   border: 2px solid black;
   box-shadow: 5px 5px black;
   padding: 10px 50px;
   margin: 10px;
+}
+textarea {
+  resize: none;
+  width: 50%;
+  height: 150px;
 }
 
 /* Estilização do botão */
@@ -106,6 +121,7 @@ button {
   text-align: center;
   font-size: 16px;
   justify-items: center;
+  font-weight: bold;
 }
 
 
@@ -121,4 +137,12 @@ button {
   font-size: 18px;
   text-align: center;
   margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  img.image-homer {
+    width: 20%;
+    height: 20%;
+  }
 }
